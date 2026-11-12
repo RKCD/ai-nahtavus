@@ -1,0 +1,27 @@
+# AI-nähtavus ja agendivalmidus
+
+> Teenus Eesti tehniliste teenuste ettevõtetele (küte, ventilatsioon, elekter, hooldus). Mõõdame, kuidas AI-assistendid ettevõtet leiavad ja mõistavad, korrastame info ja koostame inimesele ning masinale loetava ettevõtteprofiili. Teenust osutab Robert Kond.
+
+AI Visibility & Agent Readiness for technical service companies in Estonia: measuring how AI assistants find and understand a company, fixing its information, and building a machine-readable company profile. The service does not promise that any AI system will recommend a client.
+
+Kontakt / contact: acceleratedigitaltwin@gmail.com
+Teeninduspiirkond / area served: Eesti / Estonia
+Keeled / languages: eesti, English
+Viimati uuendatud / last updated: 2026-11-12
+
+## Teenus / Service
+
+- [Teenuseleht](https://rkcd.github.io/ai-nahtavus/): eesti keeles; inglise keeles `?lang=en`
+- [Teenuste kirjeldus (Markdown)](https://rkcd.github.io/ai-nahtavus/teenused.md): kolm teenuseastet, mida klient saab ja mida teenus ei luba
+- [Mõõtmismetoodika](https://rkcd.github.io/ai-nahtavus/#metoodika-et): viis standardküsimust ja salvestatavad väljad
+- [Mõõtmised](https://rkcd.github.io/ai-nahtavus/blog/): avaldatud ja kontrollitud mõõtmised
+
+## Teenuse osutaja / Provider
+
+- [Robert Kond](https://rkcd.github.io/robertkond.github.io/): builds AI tools whose claims are tied to a source
+- [EU AI Act Readiness Check](https://eu-ai-act-checker.onrender.com): dates come from code and a dated legal corpus, not from the model
+- [Agentide vastutuse kaart Eestis](https://rkcd.github.io/agentide-vastutus/): who is liable when an AI agent gets something wrong; in Estonian
+
+## Optional
+
+- [Andmeskeemid ja arhitektuur](https://rkcd.github.io/ai-nahtavus/docs/ARHITEKTUUR.md)
