@@ -306,3 +306,12 @@ h1.ask { font-size: clamp(2.05rem, 6.4vw, 3.3rem); max-width: 18ch; }
 /* ---- Brand mark (standalone service site) ---- */
 .mark { width: 1.35rem; height: 1.35rem; border-radius: 50%; flex: none; border: 1.5px solid var(--teal); position: relative; box-shadow: 0 0 14px -2px rgba(111,199,184,.55); }
 .mark::after { content: ""; position: absolute; inset: 0; margin: auto; width: .38rem; height: .38rem; border-radius: 50%; background: var(--gold); }
+
+/* ---- Service hero photo: taller on wide screens so the lit workshops on the right stay visible ---- */
+@media (min-width: 64rem) {
+  .svc-hero::before {
+    height: 34rem; background-position: center, 50% 50%;
+    -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 58%, transparent 100%);
+    mask-image: linear-gradient(180deg, #000 0%, #000 58%, transparent 100%);
+  }
+}
