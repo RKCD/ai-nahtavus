@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Näidisraport · AI-nähtavus</title>
-<meta name="description" content="Illustratiivne näidisraport: kuidas näeb välja AI-nähtavuse mõõtmise tulemus. Ettevõte ja andmed on välja mõeldud.">
+<meta name="description" content="Illustratiivne näidisraport: mida klient AI-nähtavuse piloodist saab. Ettevõte ja andmed on välja mõeldud.">
 <!-- Fictional company: keep it out of search indexes so no system mistakes it for a real business. -->
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#0A0F1C">
@@ -33,96 +33,64 @@
 <main id="main-et">
   <article class="block top doc" aria-labelledby="h-r-et">
     <div class="wrap">
-      <p class="notice">Illustratiivne näide. Ettevõte „Näidisküte OÜ“, küsimuste vastused, allikad ja numbrid on välja mõeldud, et näidata raporti ülesehitust. See ei ole päris mõõtmine.</p>
+      <p class="notice">Illustratiivne näide. Ettevõte „Näidisküte OÜ“, leiud ja numbrid on välja mõeldud, et näidata, mida klient raportis saab. See ei ole päris mõõtmine.</p>
       <p class="kicker">Näidisraport</p>
       <h1 id="h-r-et" class="h2">AI-nähtavuse piloot: Näidisküte OÜ</h1>
       <dl class="spec">
         <div><dt>Ettevõte</dt><dd>Näidisküte OÜ (väljamõeldud)</dd></div>
         <div><dt>Teenused</dt><dd>Katlahooldus · soojuspumpade paigaldus ja hooldus</dd></div>
         <div><dt>Piirkond</dt><dd>Tartu ja Tartumaa</dd></div>
-        <div><dt>Algmõõtmine</dt><dd>3. märts · 5 küsimust × 3 AI-assistenti · eesti keel</dd></div>
-        <div><dt>Kordusmõõtmine</dt><dd>14. aprill · samad küsimused ja assistendid</dd></div>
-        <div><dt>Assistendid</dt><dd>A, B, C. Päris raportis on kirjas assistentide nimed ja kasutusviis.</dd></div>
+        <div><dt>Mõõtmised</dt><dd>Algmõõtmine 3. märts · kordusmõõtmine 14. aprill · kolm AI-assistenti</dd></div>
       </dl>
 
       <h2>Kokkuvõte</h2>
       <ul>
-        <li>Algmõõtmisel mainiti ettevõtet 2 vastuses 15-st. Kordusmõõtmisel 5 vastuses 15-st.</li>
-        <li>Suurim viga oli vana telefoninumber ühes kataloogis. Kahest mainimisest ühes anti see number.</li>
-        <li>Soojuspumba hooldust ei seostanud ükski assistent ettevõttega, sest see teenus oli kirjas ainult PDF-hinnakirjas.</li>
+        <li>AI-assistendid tundsid ettevõtet vähe ja andsid osaliselt vale info.</li>
+        <li>Kõige kulukam viga: kataloogis oli vana telefoninumber ja üks assistent andis selle kliendile edasi.</li>
+        <li>Pärast parandusi oli info õigem. Piirkonna soovitustes ettevõtet ikka ei mainitud.</li>
       </ul>
 
-      <h2>1. Fakt: algmõõtmise vastused</h2>
+      <h2>Mida leidsin, miks see on oluline ja mida soovitan</h2>
       <div class="rtable-wrap">
         <table class="rtable">
-          <thead><tr><th>Küsimus</th><th>A</th><th>B</th><th>C</th></tr></thead>
+          <thead><tr><th>Leid</th><th>Miks oluline</th><th>Soovitus</th></tr></thead>
           <tbody>
-            <tr><td>Mida sa tead ettevõtte Näidisküte OÜ kohta?</td><td class="mid">mainiti · puudulik</td><td class="bad">mainiti · vale telefon</td><td class="bad">ei tea</td></tr>
-            <tr><td>Millist katlahoolduse pakkujat soovitaksid Tartus?</td><td class="bad">ei mainitud</td><td class="bad">ei mainitud</td><td class="bad">ei mainitud</td></tr>
-            <tr><td>Kelle poole pöörduda, kui soojuspump ei küta, Tartumaal?</td><td class="bad">ei mainitud</td><td class="bad">ei mainitud</td><td class="bad">ei mainitud</td></tr>
-            <tr><td>Mida arvestada soojuspumba hoolduse valimisel?</td><td>üldine vastus</td><td>üldine vastus</td><td>üldine vastus</td></tr>
-            <tr><td>Kas Näidisküte OÜ hooldab soojuspumpasid Tartumaal ja kuidas temaga ühendust võtta?</td><td class="bad">ei tea</td><td class="bad">ei tea</td><td class="bad">ei tea</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="muted">Näide ühest vastusest, sõna-sõnalt: „Näidisküte OÜ on Tartus tegutsev küttefirma, mis pakub katlahooldust. Kontakt: +372 5xx xxxx.“ (Assistent B, 3. märts). Number on näites varjatud.</p>
-
-      <h2>2. Vaatlus: leitud puudujäägid</h2>
-      <div class="rtable-wrap">
-        <table class="rtable">
-          <thead><tr><th>Andmed</th><th>Kinnitatud</th><th>Mida allikad ütlesid</th></tr></thead>
-          <tbody>
-            <tr><td>Telefon</td><td>uus number</td><td class="bad">Üks kataloog: vana number. Assistent B kasutas seda.</td></tr>
-            <tr><td>Teeninduspiirkond</td><td>Tartu ja Tartumaa</td><td class="bad">Veebilehel kirjas ei olnud. Assistendid pakkusid ainult Tartu linna.</td></tr>
-            <tr><td>Soojuspumba hooldus</td><td>pakub</td><td class="bad">Ainult PDF-hinnakirjas. HTML-lehel puudus.</td></tr>
-            <tr><td>Lahtiolekuajad</td><td>E–R 8–17</td><td class="mid">Google'i ettevõtteprofiilis E–R 9–18.</td></tr>
-            <tr><td>Järgmine samm</td><td>päringuvorm ja telefon</td><td class="mid">Veebilehel ainult telefon, päringuvorm puudus.</td></tr>
+            <tr><td class="bad">Kataloogis vana telefoninumber</td><td>Klient helistab valesse numbrisse ja tööd ei tule.</td><td>Parandada number kataloogis. Kontrollida teisi kirjeid.</td></tr>
+            <tr><td class="bad">Teeninduspiirkond pole veebilehel kirjas</td><td>AI pakub ettevõtet ainult Tartu linnas, mitte maakonnas.</td><td>Kirjutada veebilehele tekstina, millistes valdades töid teed.</td></tr>
+            <tr><td class="bad">Soojuspumba hooldus ainult PDF-hinnakirjas</td><td>Masin ei seosta teenust ettevõttega.</td><td>Eraldi lõik teenuse ja seadmetüüpidega veebilehel.</td></tr>
+            <tr><td class="mid">Lahtiolekuajad erinevad Google'i profiilis ja veebis</td><td>Klient ei tea, millal helistada.</td><td>Ühtlustada lahtiolekuajad.</td></tr>
+            <tr><td class="mid">Päringuvormi pole</td><td>Järgmine samm on ainult telefon.</td><td>Lisada lihtne päringuvorm või e-post.</td></tr>
           </tbody>
         </table>
       </div>
 
-      <h2>Allikad, mida assistendid kasutasid (näited)</h2>
-      <ul>
-        <li>ettevõtte veebilehe avaleht</li>
-        <li>üks Eesti ettevõtete kataloog</li>
-        <li>Google'i ettevõtteprofiil</li>
-        <li>Facebooki leht</li>
-      </ul>
-      <p class="muted">Päris raportis on allikad lingitud. Teiste ettevõtete nimesid, mis vastustes esinesid, raportis ei avaldata.</p>
-
-      <h2>3. Tõlgendus ja soovitatud parandused</h2>
-      <p class="muted">Tõlgendus on minu hinnang, mitte kontrollitud fakt.</p>
-      <ol>
-        <li><b>Paranda telefoninumber kataloogis.</b> See on otsene kahju: klient helistab valesse numbrisse.</li>
-        <li><b>Lisa veebilehele teeninduspiirkond tekstina.</b> Nimeta linn ja vald, kus töid teed.</li>
-        <li><b>Too soojuspumba hooldus PDF-ist välja eraldi lõiguna.</b> Kirjelda, milliseid seadmeid hooldad.</li>
-        <li><b>Ühtlusta lahtiolekuajad</b> Google'i ettevõtteprofiilis ja veebis.</li>
-        <li><b>Lisa veebilehele masinloetav ettevõtteprofiil</b> (JSON-LD), mis vastab lehel nähtavale tekstile.</li>
-      </ol>
-
-      <h2>4. Kordusmõõtmise võrdlus</h2>
+      <h2>Paranduste tulemus</h2>
       <div class="rtable-wrap">
         <table class="rtable">
-          <thead><tr><th>Mõõdik</th><th>3. märts</th><th>14. aprill</th></tr></thead>
+          <thead><tr><th>Mida vaatasin</th><th>Enne</th><th>Pärast</th></tr></thead>
           <tbody>
             <tr><td>Ettevõtet mainiti</td><td class="bad">2 / 15</td><td class="mid">5 / 15</td></tr>
-            <tr><td>Telefon õige (mainimistes)</td><td class="bad">1 / 2</td><td class="ok">5 / 5</td></tr>
-            <tr><td>Piirkond õige (mainimistes)</td><td class="bad">0 / 2</td><td class="mid">3 / 5</td></tr>
-            <tr><td>Soojuspumba hooldus seostati ettevõttega</td><td class="bad">ei</td><td class="ok">jah, 2 assistenti</td></tr>
-            <tr><td>Kategooriaküsimus („soovita Tartus“)</td><td class="bad">ei mainitud</td><td class="bad">ei mainitud</td></tr>
+            <tr><td>Telefon õige, kui mainiti</td><td class="bad">1 / 2</td><td class="ok">5 / 5</td></tr>
+            <tr><td>Piirkond õige, kui mainiti</td><td class="bad">0 / 2</td><td class="mid">3 / 5</td></tr>
+            <tr><td>Soojuspumba hooldus seostati ettevõttega</td><td class="bad">ei</td><td class="ok">jah</td></tr>
+            <tr><td>Soovitati piirkonna pakkujana</td><td class="bad">ei</td><td class="bad">ei</td></tr>
           </tbody>
         </table>
       </div>
-      <p>Kordusmõõtmisel paranes info õigsus. Kategooriaküsimuses ei mainitud ettevõtet ka pärast parandusi. Seda ei saa parandustega garanteerida.</p>
+      <p>Info õigsus paranes. Piirkonna soovitustes ettevõtet ei mainitud ka pärast parandusi. Seda ei saa parandustega tagada.</p>
+
+      <h2>Kuidas tulemust hiljem kontrollitakse</h2>
+      <p>Kordusmõõtmine tehakse samade kliendiküsimuste ja samade assistentidega. Raportis on kirjas mõlema mõõtmise kuupäev, et oleks näha, mis muutus. Soovi korral võib mõõtmist hiljem korrata.</p>
 
       <div class="limits">
         <b class="label">Piirangud</b>
         <ul>
-          <li>AI vastused muutuvad päevast päeva ja platvormiti.</li>
-          <li>15 vastust on proovivalim, mitte statistiliselt esinduslik tulemus.</li>
+          <li>AI vastused muutuvad ajas ja platvormiti.</li>
+          <li>Mõõtmine on proovivalim, mitte statistiliselt esinduslik tulemus.</li>
           <li>Muutus võib tuleneda ka assistendi enda muudatustest, mitte ainult parandustest.</li>
         </ul>
       </div>
+      <p class="muted">Päris raportis on lisaks assistentide nimed, kuupäevad, allikad ja vastuste väljavõtted. Teiste ettevõtete nimesid ei avaldata.</p>
       <p class="more"><a href="./#teenused-et">← Tagasi teenuste juurde</a></p>
     </div>
   </article>
@@ -145,96 +113,64 @@
 <main id="main-en">
   <article class="block top doc" aria-labelledby="h-r-en">
     <div class="wrap">
-      <p class="notice">Illustrative example. The company “Näidisküte OÜ”, the answers, sources and numbers are made up to show how the report is structured. This is not a real measurement.</p>
+      <p class="notice">Illustrative example. The company “Näidisküte OÜ”, the findings and the numbers are made up to show what a client gets in the report. This is not a real measurement.</p>
       <p class="kicker">Sample report</p>
       <h1 id="h-r-en" class="h2">AI visibility pilot: Näidisküte OÜ</h1>
       <dl class="spec">
         <div><dt>Company</dt><dd>Näidisküte OÜ (fictional)</dd></div>
         <div><dt>Services</dt><dd>Boiler maintenance · heat pump installation and maintenance</dd></div>
         <div><dt>Area</dt><dd>Tartu and Tartu County</dd></div>
-        <div><dt>Baseline</dt><dd>3 March · 5 questions × 3 AI assistants · Estonian</dd></div>
-        <div><dt>Follow-up</dt><dd>14 April · same questions and assistants</dd></div>
-        <div><dt>Assistants</dt><dd>A, B, C. A real report names the assistants and how they were used.</dd></div>
+        <div><dt>Measurements</dt><dd>Baseline 3 March · follow-up 14 April · three AI assistants</dd></div>
       </dl>
 
       <h2>Summary</h2>
       <ul>
-        <li>At baseline the company was mentioned in 2 of 15 answers. At follow-up, in 5 of 15.</li>
-        <li>The biggest error was an old phone number in one directory. One of the two mentions gave that number.</li>
-        <li>No assistant linked heat pump maintenance to the company, because the service was only listed in a PDF price list.</li>
+        <li>AI assistants knew little about the company and gave partly wrong information.</li>
+        <li>The most costly error: an old phone number in a directory, which one assistant passed on to the customer.</li>
+        <li>After the fixes the information was more accurate. The company was still not mentioned in recommendations for the area.</li>
       </ul>
 
-      <h2>1. Fact: baseline answers</h2>
+      <h2>What I found, why it matters and what I recommend</h2>
       <div class="rtable-wrap">
         <table class="rtable">
-          <thead><tr><th>Question</th><th>A</th><th>B</th><th>C</th></tr></thead>
+          <thead><tr><th>Finding</th><th>Why it matters</th><th>Recommendation</th></tr></thead>
           <tbody>
-            <tr><td>What do you know about Näidisküte OÜ?</td><td class="mid">mentioned · incomplete</td><td class="bad">mentioned · wrong phone</td><td class="bad">doesn’t know</td></tr>
-            <tr><td>Which boiler maintenance provider would you recommend in Tartu?</td><td class="bad">not mentioned</td><td class="bad">not mentioned</td><td class="bad">not mentioned</td></tr>
-            <tr><td>Who should I call if my heat pump isn’t heating, in Tartu County?</td><td class="bad">not mentioned</td><td class="bad">not mentioned</td><td class="bad">not mentioned</td></tr>
-            <tr><td>What should I consider when choosing heat pump maintenance?</td><td>general answer</td><td>general answer</td><td>general answer</td></tr>
-            <tr><td>Does Näidisküte OÜ service heat pumps in Tartu County, and how do I contact them?</td><td class="bad">doesn’t know</td><td class="bad">doesn’t know</td><td class="bad">doesn’t know</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="muted">One answer, word for word: “Näidisküte OÜ is a heating company in Tartu offering boiler maintenance. Contact: +372 5xx xxxx.” (Assistant B, 3 March). The number is masked in this example.</p>
-
-      <h2>2. Observation: gaps found</h2>
-      <div class="rtable-wrap">
-        <table class="rtable">
-          <thead><tr><th>Data</th><th>Confirmed</th><th>What sources said</th></tr></thead>
-          <tbody>
-            <tr><td>Phone</td><td>new number</td><td class="bad">One directory: old number. Assistant B used it.</td></tr>
-            <tr><td>Service area</td><td>Tartu and Tartu County</td><td class="bad">Not stated on the website. Assistants offered only Tartu city.</td></tr>
-            <tr><td>Heat pump maintenance</td><td>offered</td><td class="bad">Only in a PDF price list. Missing from the HTML pages.</td></tr>
-            <tr><td>Opening hours</td><td>Mon–Fri 8–17</td><td class="mid">Google Business Profile: Mon–Fri 9–18.</td></tr>
-            <tr><td>Next step</td><td>enquiry form and phone</td><td class="mid">Website showed only the phone, no enquiry form.</td></tr>
+            <tr><td class="bad">Old phone number in a directory</td><td>Customers call the wrong number and the work doesn’t come in.</td><td>Fix the number in the directory. Check the other listings.</td></tr>
+            <tr><td class="bad">Service area not stated on the website</td><td>AI offers the company only in Tartu city, not the county.</td><td>State on the website, as text, which municipalities you cover.</td></tr>
+            <tr><td class="bad">Heat pump maintenance only in a PDF price list</td><td>Machines don’t link the service to the company.</td><td>A separate section on the website with the service and equipment types.</td></tr>
+            <tr><td class="mid">Opening hours differ between Google profile and website</td><td>Customers don’t know when to call.</td><td>Align the opening hours.</td></tr>
+            <tr><td class="mid">No enquiry form</td><td>The only next step is a phone call.</td><td>Add a simple enquiry form or email.</td></tr>
           </tbody>
         </table>
       </div>
 
-      <h2>Sources the assistants used (examples)</h2>
-      <ul>
-        <li>company website front page</li>
-        <li>one Estonian business directory</li>
-        <li>Google Business Profile</li>
-        <li>Facebook page</li>
-      </ul>
-      <p class="muted">A real report links the sources. Names of other companies that appeared in the answers are not published.</p>
-
-      <h2>3. Interpretation and recommended fixes</h2>
-      <p class="muted">Interpretation is my view, not a verified fact.</p>
-      <ol>
-        <li><b>Fix the phone number in the directory.</b> This is direct harm: customers call the wrong number.</li>
-        <li><b>State the service area on the website as text.</b> Name the towns and municipalities you cover.</li>
-        <li><b>Move heat pump maintenance out of the PDF into its own section.</b> Say which equipment you service.</li>
-        <li><b>Align opening hours</b> in the Google Business Profile and on the website.</li>
-        <li><b>Add a machine-readable company profile</b> (JSON-LD) to the website that matches the visible text.</li>
-      </ol>
-
-      <h2>4. Follow-up comparison</h2>
+      <h2>Result of the fixes</h2>
       <div class="rtable-wrap">
         <table class="rtable">
-          <thead><tr><th>Measure</th><th>3 March</th><th>14 April</th></tr></thead>
+          <thead><tr><th>What I looked at</th><th>Before</th><th>After</th></tr></thead>
           <tbody>
             <tr><td>Company mentioned</td><td class="bad">2 / 15</td><td class="mid">5 / 15</td></tr>
-            <tr><td>Phone correct (in mentions)</td><td class="bad">1 / 2</td><td class="ok">5 / 5</td></tr>
-            <tr><td>Area correct (in mentions)</td><td class="bad">0 / 2</td><td class="mid">3 / 5</td></tr>
-            <tr><td>Heat pump maintenance linked to the company</td><td class="bad">no</td><td class="ok">yes, 2 assistants</td></tr>
-            <tr><td>Category question (“recommend in Tartu”)</td><td class="bad">not mentioned</td><td class="bad">not mentioned</td></tr>
+            <tr><td>Phone correct when mentioned</td><td class="bad">1 / 2</td><td class="ok">5 / 5</td></tr>
+            <tr><td>Area correct when mentioned</td><td class="bad">0 / 2</td><td class="mid">3 / 5</td></tr>
+            <tr><td>Heat pump maintenance linked to the company</td><td class="bad">no</td><td class="ok">yes</td></tr>
+            <tr><td>Recommended as a provider in the area</td><td class="bad">no</td><td class="bad">no</td></tr>
           </tbody>
         </table>
       </div>
-      <p>The accuracy of the information improved at follow-up. The company was still not mentioned in the category question. Fixes cannot guarantee that.</p>
+      <p>The accuracy of the information improved. The company was still not mentioned in recommendations for the area after the fixes. Fixes cannot guarantee that.</p>
+
+      <h2>How the result is checked later</h2>
+      <p>The follow-up uses the same customer questions and the same assistants. The report shows the dates of both measurements, so you can see what changed. The measurement can be repeated later on request.</p>
 
       <div class="limits">
         <b class="label">Limits</b>
         <ul>
-          <li>AI answers change from day to day and between platforms.</li>
-          <li>15 answers is a sample, not a statistically representative result.</li>
+          <li>AI answers change over time and between platforms.</li>
+          <li>A measurement is a sample, not a statistically representative result.</li>
           <li>A change can also come from the assistant itself, not only from the fixes.</li>
         </ul>
       </div>
+      <p class="muted">A real report also names the assistants and includes dates, sources and excerpts from the answers. Names of other companies are not published.</p>
       <p class="more"><a href="./?lang=en#services-en">← Back to services</a></p>
     </div>
   </article>

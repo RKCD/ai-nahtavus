@@ -322,3 +322,15 @@ html.lang-et .page[data-lang="en"], html.lang-en .page[data-lang="et"] { display
 }
 .rtable caption { text-align: left; padding: .7rem .8rem 0; }
 .tier, .levels li, .spec dd { min-width: 0; }
+
+/* ---- Positioning: differentiation and short method ---- */
+.diff-gain { margin-top: 1.4rem; max-width: 62ch; }
+.method-short { display: grid; gap: .7rem; max-width: 62ch; }
+.method-short p:first-child { color: var(--ivory); font-size: 1.05rem; }
+.method-short p + p { color: var(--muted); }
+.kinds.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.levels.five { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.trust { margin-bottom: 2rem; }
+.who-name { margin-top: 0; }
+@media (max-width: 64rem) { .levels.five { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 40rem) { .kinds.two, .levels.five { grid-template-columns: 1fr; } }
