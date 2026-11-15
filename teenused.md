@@ -12,14 +12,14 @@ last_updated: 2026-11-15
 
 # AI-nähtavus
 
-Kontrollin, kuidas AI-assistendid sinu ettevõtet ja teenuseid näevad. Korrastan ettevõtte info nii, et see oleks inimestele, otsingusüsteemidele ja AI-tööriistadele selge ning masinloetav.
+Aitan Eesti tehniliste teenuste ettevõtetel kontrollida ja parandada seda, kuidas AI-süsteemid nende ettevõtet, teenuseid ja teeninduspiirkonda mõistavad. Mõõdan, kontrollin ja korrastan. Tulemuseks on selgem, usaldusväärsem ja masinloetav ettevõtteinfo.
 
 ## Neli tasandit
 
 1. **AI-nähtavus.** Kas AI-assistent leiab ettevõtte ja nimetab seda sobiva kliendiküsimuse korral?
 2. **Info usaldusväärsus.** Kas nimi, kontaktid, teenused, piirkond ja muu info on eri allikates õiged ja ajakohased?
 3. **Agendivalmidus.** Kas masin saab aru teenustest, tingimustest, piirangutest ja järgmisest sammust?
-4. **Agendiga tehinguvalmidus.** Tulevikusuund, mitte praeguse teenuse lubadus.
+4. **Agendiga tehinguvalmidus.** Tulevikusuund. Täna mõõdame nähtavust ja korrastame ettevõtte infot. Homme võib see olla aluseks AI-agentidega suhtlemisele. Praegune teenus ei tee automaatseid päringuid, broneeringuid ega tehinguid.
 
 Praegune teenus katab tasandid 1–3.
 
@@ -31,6 +31,24 @@ Praegune teenus katab tasandid 1–3.
 4. **Mõõdan uuesti:** kordan samu küsimusi ja võrdlen tulemusi.
 
 AI vastused erinevad ajas ja platvormiti. Kordusmõõtmine ei taga soovitud tulemust.
+
+## SEO ja AI-nähtavus
+
+Tavaline SEO keskendub sellele, kuidas veebileht otsingutulemustes leitav ja nähtav on. AI-nähtavus kontrollib lisaks, kas AI-süsteemid leiavad ettevõtte kohta piisavalt usaldusväärset infot, saavad õigesti aru selle teenustest ja suudavad seda infot kasutada. Need täiendavad teineteist.
+
+## Eristumise alused
+
+Teenus on arendamise ja esimeste pilootprojektide etapis. Need on töö alused, mitte tõestatud tulemused.
+
+1. Tehniliste teenuste valdkonna tundmine: seadmed, tööde ulatus, tingimused, piirangud ja piirkond.
+2. Süsteemne ja korratav mõõtmine, mitte üksikud päringud.
+3. Masinloetav teenuseprofiil.
+4. Kogunev valdkondlik teadmine: tekib tulevikus päris tööde ja klientide nõusolekul kogutud andmete põhjal.
+5. Inimlik ja praktiline lähenemine.
+
+## Tööviis
+
+Faktid kontrollitakse omaniku kinnitatud andmete põhjal, puudujäägid dokumenteeritakse, muudatused tehakse kokkuleppel, tulemust mõõdetakse uuesti, piirangud ja ebakindlus öeldakse välja.
 
 ## Tasuta AI-nähtavuse test
 
@@ -64,7 +82,7 @@ Pidevat kuutasulist mõõtmist praegu ei pakuta. Korduv mõõtmine lepitakse vaj
 
 # AI Visibility (English summary)
 
-Visible to AI. Clear to agents. Easy to find. I check how AI assistants see technical service companies in Estonia and put their information in order so that people, search engines and AI tools can understand it.
+Visible to AI. Clear to agents. Easy to find. I help technical service companies in Estonia check and improve how AI systems understand their company, services and service area. SEO and AI visibility complement each other. The service is in its first pilot stage.
 
 - **Free AI visibility test:** five customer questions to three AI assistants, a short written summary and the three most important fixes. Not a full audit.
 - **AI visibility pilot:** baseline measurement, information audit, service profile, agreed fixes, follow-up measurement and results summary. Price, duration and scope on request.

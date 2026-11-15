@@ -2,8 +2,8 @@
 <!--
   ARTIKLI MALL. Kopeeri faili blog/AAAA-KK-PP-luhinimi.html, täida {{…}} kohad, eemalda see kommentaar.
   Enne commit'i:
-   1. Iga AI vastus on salvestatud koos kuupäeva, platvormi, keele ja täpse küsimusega (docs/mootmine.schema.json).
-   2. Fakt, vaatlus ja tõlgendus on eraldi plokkides.
+   1. Andmed on kontrollitud ja mõõtmise toorandmed on Roberti privaatses hoidlas, mitte siin.
+   2. Sisemist metoodikat (küsimuste malle, hindamisloogikat) artiklis ei avaldata.
    3. Teiste ettevõtete nimed on eemaldatud või nende luba on olemas.
    4. Mõlemad keeleplokid on sisuliselt täielikud.
    5. Lisa artikkel blog/index.html registrisse.
@@ -44,17 +44,16 @@
       <h1 id="h-post-et" class="h2">{{Pealkiri}}</h1>
       <p class="section-lead">{{Kaks lauset: mida küsisime, kellelt ja miks.}}</p>
 
-      <h2 class="h3">Kuidas mõõtsime</h2>
-      <ul class="fields"><li>kuupäev: {{AAAA-KK-PP}}</li><li>platvormid: {{…}}</li><li>keel: {{et}}</li><li>küsimusi: {{5}}</li></ul>
+      <p class="muted">Mõõdetud: {{PP. kuu AAAA}} · {{arv}} AI-assistenti</p>
 
-      <h2 class="h3">Fakt</h2>
-      <p>{{Mida assistendid sõna-sõnalt vastasid. Tsitaadid koos platvormi nimega.}}</p>
+      <h2 class="h3">Mida leidsin</h2>
+      <p>{{Peamised leiud, lühidalt ja konkreetselt.}}</p>
 
-      <h2 class="h3">Vaatlus</h2>
-      <p>{{Mida vastustest on näha: mainimised, õige/puudulik/vale, allikad.}}</p>
+      <h2 class="h3">Miks see on oluline</h2>
+      <p>{{Mida see ettevõtjale tähendab.}}</p>
 
-      <h2 class="h3">Tõlgendus</h2>
-      <p>{{Meie hinnang ja selle piirid.}}</p>
+      <h2 class="h3">Mida soovitan</h2>
+      <p>{{Praktilised sammud.}}</p>
 
       <div class="limits"><b class="label">Piirangud</b><ul><li>AI vastused muutuvad päevast päeva.</li><li>Väike valim ei ole statistiliselt esinduslik.</li></ul></div>
       <p class="more"><a href="./">← Kõik mõõtmised</a></p>
@@ -82,14 +81,13 @@
       <p class="kicker">Measurement · {{D Month YYYY}}</p>
       <h1 id="h-post-en" class="h2">{{Title}}</h1>
       <p class="section-lead">{{Two sentences: what we asked, whom, and why.}}</p>
-      <h2 class="h3">How we measured</h2>
-      <ul class="fields"><li>date: {{YYYY-MM-DD}}</li><li>platforms: {{…}}</li><li>language: {{et}}</li><li>questions: {{5}}</li></ul>
-      <h2 class="h3">Fact</h2>
-      <p>{{What the assistants answered, word for word, with the platform named.}}</p>
-      <h2 class="h3">Observation</h2>
-      <p>{{What the answers show: mentions, correct/incomplete/wrong, sources.}}</p>
-      <h2 class="h3">Interpretation</h2>
-      <p>{{Our view and its limits.}}</p>
+      <p class="muted">Measured: {{D Month YYYY}} · {{number}} AI assistants</p>
+      <h2 class="h3">What I found</h2>
+      <p>{{Main findings, short and concrete.}}</p>
+      <h2 class="h3">Why it matters</h2>
+      <p>{{What this means for a business owner.}}</p>
+      <h2 class="h3">What I recommend</h2>
+      <p>{{Practical steps.}}</p>
       <div class="limits"><b class="label">Limits</b><ul><li>AI answers change from day to day.</li><li>A small sample is not statistically representative.</li></ul></div>
       <p class="more"><a href="./?lang=en">← All measurements</a></p>
     </div>
