@@ -270,7 +270,7 @@ html.lang-et .page[data-lang="en"], html.lang-en .page[data-lang="et"] { display
 .levels li.future::before { color: var(--muted); }
 .levels .tag { margin-top: auto; }
 
-.tbd { font-family: var(--mono); font-size: .82em; color: var(--gold); border: 1px dashed rgba(230,194,125,.6); border-radius: 4px; padding: 0 .35rem; white-space: nowrap; }
+.tbd { font-family: var(--mono); font-size: .82em; color: var(--gold); border: 1px dashed rgba(230,194,125,.6); border-radius: 4px; padding: 0 .35rem; overflow-wrap: anywhere; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 
 .outputs { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .55rem 1.4rem; counter-reset: out; }
 .outputs li { counter-increment: out; display: grid; grid-template-columns: 1.8rem minmax(0, 1fr); color: var(--ivory); }
@@ -321,3 +321,4 @@ html.lang-et .page[data-lang="en"], html.lang-en .page[data-lang="et"] { display
   .spec div { grid-template-columns: 1fr; gap: .15rem; }
 }
 .rtable caption { text-align: left; padding: .7rem .8rem 0; }
+.tier, .levels li, .spec dd { min-width: 0; }
