@@ -1,0 +1,53 @@
+{
+  "format": "ai-nahtavus/profile/0.1",
+  "demo": true,
+  "notice": {
+    "et": "DEMO. Väljamõeldud ettevõte ja andmed. Ära kasuta päris päringuteks.",
+    "en": "DEMO. Fictional company and data. Do not use for real requests."
+  },
+  "id": "naidiskute",
+  "name": "Näidisküte OÜ",
+  "url": "https://rkcd.github.io/ai-nahtavus/naidisraport.html",
+  "verified": { "by": "owner", "on": "2026-11-15", "method": "demo" },
+  "languages": ["et", "en"],
+  "hours": "Mo-Fr 08:00-17:00",
+  "area": ["Tartu linn", "Tartu vald", "Elva vald", "Kambja vald"],
+  "services": [
+    {
+      "id": "katlahooldus",
+      "name": { "et": "Katlahooldus", "en": "Boiler maintenance" },
+      "keywords": ["katel", "boiler", "gaasikatel", "pelletikatel", "küte", "heating"],
+      "equipment": ["gaasikatel", "pelletikatel"],
+      "price_range": { "min": 90, "max": 160, "currency": "EUR", "unit": "visit", "note": { "et": "Lõplik hind pärast ülevaatust.", "en": "Final price after inspection." } },
+      "excludes": [{ "et": "korstna pühkimine", "en": "chimney sweeping" }]
+    },
+    {
+      "id": "soojuspumba-hooldus",
+      "name": { "et": "Soojuspumba hooldus ja rikke diagnostika", "en": "Heat pump maintenance and fault diagnostics" },
+      "keywords": ["soojuspump", "heat pump", "õhk-vesi", "maasoojus", "rike", "fault"],
+      "equipment": ["õhk-vesi soojuspump", "maasoojuspump"],
+      "price_range": { "min": 120, "max": 220, "currency": "EUR", "unit": "visit", "note": { "et": "Varuosad lisanduvad.", "en": "Spare parts extra." } },
+      "excludes": [{ "et": "õhk-õhk soojuspumbad", "en": "air-to-air heat pumps" }]
+    }
+  ],
+  "availability": {
+    "updated": "2026-11-15",
+    "note": { "et": "Vabad ajaaknad, mitte broneeringud. Aja kinnitab inimene.", "en": "Open time windows, not bookings. A person confirms the time." },
+    "windows": [
+      { "date": "2026-11-19", "part": "morning" },
+      { "date": "2026-11-20", "part": "afternoon" },
+      { "date": "2026-11-24", "part": "morning" }
+    ]
+  },
+  "quote_request": {
+    "required": ["service_id", "area", "equipment", "problem", "preferred_time", "customer_contact"],
+    "channel": "email",
+    "to": "demo@example.invalid",
+    "response_time_hours": 24,
+    "human_confirmation": true
+  },
+  "limits": [
+    { "et": "Agent ei saa aega ega hinda kinnitada. Kinnitab ettevõtte inimene.", "en": "An agent cannot confirm a time or price. A person at the company confirms." },
+    { "et": "Ei teeninda väljaspool loetletud valdu.", "en": "No service outside the listed municipalities." }
+  ]
+}

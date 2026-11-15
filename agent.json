@@ -1,0 +1,21 @@
+{
+  "format": "ai-nahtavus/manifest/0.1",
+  "name": "AI-nähtavus agendikiht",
+  "description": {
+    "et": "Eesti kohalike tehniliste teenuste omaniku kinnitatud profiilid, mida AI-agendid saavad lugeda. Hinnapäringu koostab agent, kinnitab inimene. Prototüüp, ainult demoandmed.",
+    "en": "Owner-verified profiles of local technical service companies in Estonia that AI agents can read. An agent drafts a quote request, a person confirms. Prototype, demo data only."
+  },
+  "status": "prototype",
+  "contact": "acceleratedigitaltwin@gmail.com",
+  "profiles": [
+    { "id": "naidiskute", "url": "https://rkcd.github.io/ai-nahtavus/agent/profiilid/naidiskute.json", "demo": true }
+  ],
+  "tools": {
+    "mcp": { "transport": "stdio", "source": "https://github.com/RKCD/ai-nahtavus/tree/main/agent/mcp" }
+  },
+  "rules": {
+    "human_confirmation_required": true,
+    "agent_may": ["read profiles", "match service and area", "draft a quote request"],
+    "agent_may_not": ["confirm bookings", "confirm prices", "send requests without the customer's approval"]
+  }
+}
