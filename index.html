@@ -3,26 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AI-nähtavus · Kas AI teab, mida sinu ettevõte pakub?</title>
-<meta name="description" content="Kas AI teab, mida sinu ettevõte pakub? Mõõdame, kuidas AI-assistendid sinu ettevõtet leiavad ja mõistavad, korrastame info ja valmistame ettevõtte ette AI-agentidega suhtlemiseks. Tasuta test Eesti tehniliste teenuste ettevõtetele.">
-<meta property="og:title" content="Kas AI teab, mida sinu ettevõte pakub?">
-<meta property="og:description" content="AI-nähtavuse tasuta test, AI-valmis ettevõtteprofiil ja pidev mõõtmine. Eesti küte-, ventilatsiooni-, elektri- ja hooldusettevõtetele.">
+<title>AI-nähtavus · Kas AI leiab sinu ettevõtte üles?</title>
+<meta name="description" content="Kontrollin, kuidas AI-assistendid sinu ettevõtet ja teenuseid näevad, ning korrastan ettevõtte info nii, et see oleks inimestele, otsingusüsteemidele ja AI-tööriistadele selge. Eesti tehniliste teenuste ettevõtetele. Tasuta AI-nähtavuse test.">
+<meta property="og:title" content="AI-le nähtav. Agendile arusaadav. Kliendile leitav.">
+<meta property="og:description" content="Kas AI leiab sinu ettevõtte üles ja saab aru, mida sa pakud? Tasuta AI-nähtavuse test Eesti tehniliste teenuste ettevõtetele.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="et_EE">
+<meta property="og:locale:alternate" content="en_GB">
 <meta property="og:url" content="https://rkcd.github.io/ai-nahtavus/">
 <meta property="og:image" content="https://rkcd.github.io/ai-nahtavus/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Robert Kond">
+<meta property="og:image:alt" content="AI-nähtavus: AI-le nähtav. Agendile arusaadav. Kliendile leitav.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0A0F1C">
 <link rel="canonical" href="https://rkcd.github.io/ai-nahtavus/">
 <link rel="alternate" hreflang="et" href="https://rkcd.github.io/ai-nahtavus/">
 <link rel="alternate" hreflang="en" href="https://rkcd.github.io/ai-nahtavus/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://rkcd.github.io/ai-nahtavus/">
+<script>(function(){var d=document.documentElement,q=location.search.match(/[?&]lang=(en|et)\b/),h=location.hash.match(/-(en|et)$/),l=q?q[1]:h?h[1]:d.getAttribute("data-default-lang");d.classList.add("js","lang-"+l);d.lang=l;})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap">
 <link rel="stylesheet" href="site.css">
-<!-- Structured data: only what is visible on this page. No prices except the free test, no ratings, no clients. -->
+<!-- Structured data: only what is visible on this page. No address, phone, rating or price except the free test. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,22 +36,21 @@
       "@id": "https://rkcd.github.io/robertkond.github.io/#robert",
       "name": "Robert Kond",
       "url": "https://rkcd.github.io/robertkond.github.io/",
-      "image": "https://rkcd.github.io/robertkond.github.io/robert-avatar.jpg",
+      "image": "https://rkcd.github.io/ai-nahtavus/robert-avatar.jpg",
       "email": "mailto:acceleratedigitaltwin@gmail.com",
-      "address": { "@type": "PostalAddress", "addressCountry": "EE" },
       "alumniOf": { "@type": "CollegeOrUniversity", "name": "Eesti Maaülikool" }
     },
     {
       "@type": "ProfessionalService",
       "@id": "https://rkcd.github.io/ai-nahtavus/#service",
-      "name": "AI-nähtavus ja agendivalmidus",
-      "alternateName": "AI Visibility & Agent Readiness",
-      "description": "Mõõdame, kuidas AI-assistendid ettevõtet leiavad ja mõistavad, korrastame ettevõtte info ning koostame inimesele ja masinale loetava ettevõtteprofiili.",
+      "name": "AI-nähtavus",
+      "alternateName": "AI Visibility",
+      "slogan": "AI-le nähtav. Agendile arusaadav. Kliendile leitav.",
+      "description": "Kontrollin, kuidas AI-assistendid ettevõtet ja selle teenuseid näevad, ning korrastan ettevõtte info nii, et see oleks inimestele, otsingusüsteemidele ja AI-tööriistadele selge ning masinloetav.",
       "url": "https://rkcd.github.io/ai-nahtavus/",
       "image": "https://rkcd.github.io/ai-nahtavus/og-image.jpg",
       "email": "mailto:acceleratedigitaltwin@gmail.com",
       "founder": { "@id": "https://rkcd.github.io/robertkond.github.io/#robert" },
-      "address": { "@type": "PostalAddress", "addressCountry": "EE" },
       "areaServed": { "@type": "Country", "name": "Estonia" },
       "knowsLanguage": ["et", "en"],
       "hasOfferCatalog": {
@@ -57,22 +60,16 @@
           {
             "@type": "Offer",
             "name": "Tasuta AI-nähtavuse test",
-            "description": "Viis standardküsimust kuni kolmele AI-assistendile ja lühike ülevaade: mida assistendid ettevõtte kohta teavad, mida ei tea ja milliseid allikaid kasutavad.",
+            "description": "Viis kliendiküsimust mitmele AI-assistendile ja lühike kirjalik ülevaade: kas ettevõtet leiti, kas info oli õige ja milliseid allikaid kasutati. Ei ole täielik audit.",
             "price": "0",
             "priceCurrency": "EUR",
-            "itemOffered": { "@type": "Service", "name": "AI-nähtavuse test", "audience": { "@type": "BusinessAudience", "audienceType": "Eesti küte-, ventilatsiooni-, elektri- ja hooldusettevõtted" } }
+            "itemOffered": { "@type": "Service", "name": "AI-nähtavuse test", "audience": { "@type": "BusinessAudience", "audienceType": "Eesti tehniliste teenuste väikeettevõtted" } }
           },
           {
             "@type": "Offer",
-            "name": "AI-valmis ettevõtteprofiil",
-            "description": "Ettevõtte kinnitatud andmetest koostatud profiil inimesele loetava lehena, schema.org JSON-LD märgendusena ning Markdown- ja JSON-failina. Hind pakkumise alusel.",
-            "itemOffered": { "@type": "Service", "name": "AI-valmis ettevõtteprofiil", "audience": { "@type": "BusinessAudience", "audienceType": "Eesti küte-, ventilatsiooni-, elektri- ja hooldusettevõtted" } }
-          },
-          {
-            "@type": "Offer",
-            "name": "Pidev mõõtmine",
-            "description": "Samade küsimuste korduv esitamine, muutuste võrdlus, puuduvate või valesti mõistetud andmete nimekiri ja soovitused. Tulekul.",
-            "itemOffered": { "@type": "Service", "name": "AI-nähtavuse pidev mõõtmine", "audience": { "@type": "BusinessAudience", "audienceType": "Eesti küte-, ventilatsiooni-, elektri- ja hooldusettevõtted" } }
+            "name": "AI-nähtavuse piloot",
+            "description": "Algmõõtmine, ettevõtte infoaudit, teenuseprofiili koostamine, kokkulepitud parandused, kordusmõõtmine ja tulemuste kokkuvõte.",
+            "itemOffered": { "@type": "Service", "name": "AI-nähtavuse piloot", "audience": { "@type": "BusinessAudience", "audienceType": "Eesti tehniliste teenuste väikeettevõtted" } }
           }
         ]
       }
@@ -91,8 +88,9 @@
   <div class="wrap">
     <a class="site-name" href="./"><span class="mark" aria-hidden="true"></span>AI-nähtavus</a>
     <span class="head-right">
+      <a class="head-link soft" href="#kuidas-et">Kuidas töötab</a>
       <a class="head-link soft" href="#teenused-et">Teenused</a>
-      <a class="head-link soft" href="#metoodika-et">Metoodika</a>
+      <a class="head-link soft" href="#kkk-et">KKK</a>
       <a class="head-link" href="#test-et">Tasuta test</a>
       <button class="lang-btn" type="button" data-set="en" aria-label="Switch to English">EN</button>
     </span>
@@ -102,15 +100,15 @@
 <main id="main-et">
   <section class="hero svc-hero" aria-labelledby="h1-et">
     <div class="wrap">
-      <p class="kicker">Mõõda · paranda · valmista ette</p>
-      <h1 id="h1-et" class="ask">Kas AI teab, mida sinu ettevõte pakub?</h1>
-      <p class="lead">Mõõdame, kuidas AI-assistendid sinu ettevõtet leiavad ja mõistavad. Korrastame info ning valmistame ettevõtte ette AI-agentidega suhtlemiseks.</p>
-      <p class="for-whom"><b>Kellele:</b> Eesti küte-, ventilatsiooni-, elektri- ja hooldusettevõtted</p>
+      <p class="kicker">AI-le nähtav · Agendile arusaadav · Kliendile leitav</p>
+      <h1 id="h1-et" class="ask">Kas AI leiab sinu ettevõtte üles ja saab aru, mida sa pakud?</h1>
+      <p class="lead">Kontrollin, kuidas AI-assistendid sinu ettevõtet ja teenuseid näevad. Aitan parandada puuduliku, vale või raskesti leitava info ning koostan ettevõtteprofiili, millest saavad aru nii inimesed, otsingusüsteemid kui ka AI-tööriistad.</p>
+      <p class="for-whom"><b>Eesti tehniliste teenuste ettevõtetele:</b> küte ja katlad · soojuspumbad · ventilatsioon · elektritööd · hooldus ja remont</p>
       <div class="cta-row">
-        <a class="btn btn-gold" href="#test-et">Telli tasuta test</a>
-        <a class="btn btn-ghost" href="#metoodika-et">Kuidas me mõõdame</a>
+        <a class="btn btn-gold" href="#test-et">Telli tasuta AI-nähtavuse test</a>
+        <a class="btn btn-ghost" href="#kuidas-et">Vaata, kuidas teenus töötab</a>
       </div>
-      <div class="probe" role="img" aria-label="Mõõtmise vorm: üks küsimus, kolm assistenti, tulemused täidetakse testi käigus">
+      <div class="probe" role="img" aria-label="Mõõtmise vorm: üks kliendiküsimus, kolm AI-assistenti, tulemused täidetakse testi käigus">
         <div class="probe-h"><span>Mõõtmine · küsimus 3/5</span><span>vorm</span></div>
         <p class="probe-q">„Kelle poole pöörduda, kui soojuspump ei küta, Tartus?“</p>
         <ul class="probe-rows">
@@ -126,88 +124,147 @@
   <section class="block" id="probleem-et" aria-labelledby="h-probleem-et">
     <div class="wrap">
       <p class="kicker">Probleem</p>
-      <h2 id="h-probleem-et">Info on veebis olemas. AI ei pruugi seda leida ega õigesti mõista.</h2>
+      <h2 id="h-probleem-et">Info on kuskil olemas. Masin ei leia seda üles või saab valesti aru.</h2>
       <ul class="problem">
-        <li>Klient küsib AI-assistendilt, kes tema piirkonnas soojuspumpa hooldab. Assistent vastab, aga sinu lehte ei pruugi ta avada.</li>
-        <li>Kui vana telefoninumber või teeninduspiirkond on kuskil kataloogis alles, võib assistent seda korrata.</li>
-        <li>Kui teenused on pildil, PDF-is või ainult Facebookis, on neid masinal raske lugeda.</li>
-        <li>Varsti ei küsi ainult inimene. Ka AI-agent võib kliendi eest hinnapäringu saata. Siis loeb see, kas su info on üheselt mõistetav.</li>
+        <li>AI ei tea, millises piirkonnas sa töid teed.</li>
+        <li>Veebilehel on üks telefoninumber, kataloogis ja Facebookis teine.</li>
+        <li>Teenuse kirjeldus ei ütle, milliseid seadmeid sa paigaldad või hooldad.</li>
+        <li>Hinnakiri või teenuste loetelu on ainult PDF-is või sügaval lehe sees.</li>
+        <li>Veebileht on inimesele loetav, aga masinale ei ütle see selgelt, kes sa oled ja mida teed.</li>
       </ul>
     </div>
   </section>
 
-  <section class="block" id="tooviis-et" aria-labelledby="h-tooviis-et">
+  <section class="block wide" id="tasandid-et" aria-labelledby="h-tasandid-et">
     <div class="wrap">
-      <p class="kicker">Kuidas see käib</p>
-      <h2 id="h-tooviis-et">Mõõda, paranda, valmista ette, mõõda uuesti</h2>
-      <ol class="steps">
-        <li><b>Mõõda</b><span>Esitame viis standardküsimust mitmele AI-assistendile ja paneme vastused kirja.</span></li>
-        <li><b>Paranda</b><span>Teeme nimekirja puuduvast, vananenud ja valest infost ning sellest, kus see asub.</span></li>
-        <li><b>Valmista ette</b><span>Koostame sinuga kinnitatud ettevõtteprofiili, mida loeb nii inimene kui masin.</span></li>
-        <li><b>Mõõda uuesti</b><span>Samad küsimused mõne nädala pärast. Võrdleme, mis muutus.</span></li>
+      <p class="kicker">Mida kontrollin</p>
+      <h2 id="h-tasandid-et">Neli tasandit</h2>
+      <ol class="levels">
+        <li><b>AI-nähtavus</b><span>Kas AI-assistent leiab sinu ettevõtte ja nimetab seda, kui klient küsib sobivat küsimust?</span></li>
+        <li><b>Info usaldusväärsus</b><span>Kas nimi, kontaktid, teenused ja piirkond on eri allikates õiged ja ühesugused?</span></li>
+        <li><b>Agendivalmidus</b><span>Kas masin saab aru sinu teenustest, tingimustest, piirangutest ja sellest, kuidas edasi minna?</span></li>
+        <li class="future"><b>Agendiga tehinguvalmidus</b><span>AI-agent küsib kliendi eest hinnapakkumist või aega. See on tulevikusuund, mitte praeguse teenuse lubadus.</span><span class="tag">Suund</span></li>
       </ol>
+      <p class="fine">Praegune teenus katab tasandid 1–3.</p>
+    </div>
+  </section>
+
+  <section class="block" id="kuidas-et" aria-labelledby="h-kuidas-et">
+    <div class="wrap">
+      <p class="kicker">Kuidas teenus töötab</p>
+      <h2 id="h-kuidas-et">Mõõdan, kontrollin, parandan, mõõdan uuesti</h2>
+      <ol class="steps">
+        <li><b>Mõõdan</b><span>Esitan sinu ettevõtte kohta realistlikke kliendiküsimusi eri AI-assistentidele. Panen kirja vastused ja allikad.</span></li>
+        <li><b>Kontrollin</b><span>Võrdlen AI vastuseid sinu kinnitatud andmete ja avalike allikatega.</span></li>
+        <li><b>Parandan</b><span>Aitan korrastada teenuste kirjeldused, kontaktandmed, piirkonnad ja tehnilise esituse.</span></li>
+        <li><b>Mõõdan uuesti</b><span>Kordan samu küsimusi ja võrdlen tulemusi.</span></li>
+      </ol>
+      <p class="fine">AI vastused erinevad ajas ja platvormiti. Kordusmõõtmine näitab, mis muutus, aga ei taga soovitud tulemust.</p>
+    </div>
+  </section>
+
+  <section class="block" id="saad-et" aria-labelledby="h-saad-et">
+    <div class="wrap">
+      <p class="kicker">Mida saad</p>
+      <h2 id="h-saad-et">Konkreetsed väljundid</h2>
+      <ol class="outputs">
+        <li>Algmõõtmise raport</li>
+        <li>Ettevõtte avaliku info audit</li>
+        <li>Puuduste ja paranduste nimekiri</li>
+        <li>Korrastatud ettevõtte ja teenuste profiil</li>
+        <li>Vajadusel JSON-LD ja muud masinloetavad failid</li>
+        <li>Tehtud muudatuste kokkuvõte</li>
+        <li>Kordusmõõtmise raport</li>
+      </ol>
+      <div class="explain">
+        <b class="label">Mis on masinloetav teenuseprofiil?</b>
+        <p>Struktureeritud kirjeldus sellest, mida sa pakud, kus tegutsed, kellele teenus sobib, millised on tingimused ja kuidas sinuga ühendust võtta. Sama info on kirjas nii, et inimene saab seda lugeda ja masin aru saada.</p>
+        <p>JSON-LD ja teised tehnilised failid on selle osa, mitte iseseisev lahendus. Need aitavad ainult siis, kui info ise on õige ja kõikjal ühesugune.</p>
+      </div>
     </div>
   </section>
 
   <section class="block wide" id="teenused-et" aria-labelledby="h-teenused-et">
     <div class="wrap">
       <p class="kicker">Teenused</p>
-      <h2 id="h-teenused-et">Kolm sammu, alusta tasuta testist</h2>
-      <div class="tiers">
+      <h2 id="h-teenused-et">Alusta tasuta testist</h2>
+      <div class="tiers two">
         <article class="tier">
           <span class="tag free">Tasuta</span>
           <h3>AI-nähtavuse test</h3>
-          <p>Proovimõõtmine, mis näitab, kust alustada.</p>
-          <ul class="ticks">
-            <li>viis standardküsimust</li>
-            <li>kuni kolm AI-assistenti, mis on testi päeval kättesaadavad</li>
-            <li>mida assistendid sinu ettevõttest teavad ja mida mitte</li>
-            <li>milliseid allikaid nad kasutavad</li>
-            <li>lühike kirjalik ülevaade e-postiga</li>
-          </ul>
-          <p class="note">Tulemus kehtib konkreetse kuupäeva ja küsimuste kohta. See ei ole universaalne nähtavusskoor.</p>
+          <dl class="spec">
+            <div><dt>Sisaldab</dt><dd>Viis kliendiküsimust kolmele AI-assistendile. Vaatan, kas sind leitakse, kas info on õige ja milliseid allikaid kasutatakse.</dd></div>
+            <div><dt>Vajan sinult</dt><dd>Ettevõtte nimi, veebileht, peamised teenused ja teeninduspiirkond.</dd></div>
+            <div><dt>Saad</dt><dd>Lühike kirjalik ülevaade e-postiga ja kolm kõige olulisemat parandust.</dd></div>
+            <div><dt>Vastus</dt><dd><span class="tbd">[kinnitamata: nt 5 tööpäeva jooksul]</span></dd></div>
+          </dl>
+          <p class="note">Tasuta test on proovimõõtmine. See ei ole täielik audit ega parandustöö.</p>
           <a class="btn btn-gold" href="#test-et">Telli tasuta test</a>
         </article>
         <article class="tier main">
-          <span class="tag core">Põhiteenus</span>
-          <h3>AI-valmis ettevõtteprofiil</h3>
-          <p>Sinu ettevõtte info ühes kohas, korrektne ja masinloetav.</p>
+          <span class="tag core">Tasuline</span>
+          <h3>AI-nähtavuse piloot</h3>
           <ul class="ticks">
-            <li>ametlik nimi, teenused ja nende kirjeldused</li>
-            <li>teeninduspiirkonnad ja sihtkliendid</li>
-            <li>kontaktid, lahtiolekuajad, keeled</li>
-            <li>piirangud: mida sa ei tee</li>
-            <li>kontrollitud sertifikaadid, hinnainfo kui soovid</li>
-            <li>hinnapäringu või broneerimise järgmine samm</li>
-            <li>korduma kippuvad küsimused</li>
-            <li>allikad ja viimase kontrolli kuupäev</li>
+            <li>algmõõtmine</li>
+            <li>ettevõtte infoaudit</li>
+            <li>teenuseprofiili koostamine</li>
+            <li>kokkulepitud tehnilised ja sisulised parandused</li>
+            <li>kordusmõõtmine</li>
+            <li>tulemuste kokkuvõte</li>
           </ul>
-          <p>Saad profiili lehena, schema.org märgendusena (JSON-LD) sinu veebi jaoks ning Markdown- ja JSON-failina.</p>
-          <p class="note">Iga avaldatav fakt kinnitatakse sinuga. Hind pakkumise alusel.</p>
-          <a class="btn btn-ghost" href="mailto:acceleratedigitaltwin@gmail.com?subject=AI-valmis%20ettev%C3%B5tteprofiil">Küsi pakkumist</a>
-        </article>
-        <article class="tier">
-          <span class="tag">Tulekul</span>
-          <h3>Pidev mõõtmine</h3>
-          <p>Kas parandused jõudsid kohale ja mis vahepeal muutus.</p>
-          <ul class="ticks">
-            <li>samad küsimused korduvalt</li>
-            <li>muutuste võrdlus kuupäevade kaupa</li>
-            <li>puuduvate või valesti mõistetud andmete nimekiri</li>
-            <li>soovitused järgmisteks parandusteks</li>
-          </ul>
-          <p class="note">Avame pärast esimesi profiiliprojekte.</p>
+          <dl class="spec">
+            <div><dt>Mõõtmine</dt><dd>5 küsimust × <span class="tbd">[kinnitamata: 3]</span> AI-assistenti, alguses ja lõpus</dd></div>
+            <div><dt>Kontrollin</dt><dd>Nimi, kontaktid, teenused, teeninduspiirkond, lahtiolekuajad, järgmine samm (päring või broneerimine) ja allikad, kus need on kirjas</dd></div>
+            <div><dt>Ulatus</dt><dd>Kuni <span class="tbd">[kinnitamata]</span> teenust ja <span class="tbd">[kinnitamata]</span> piirkonda</dd></div>
+            <div><dt>Veebilehe muudatused</dt><dd><span class="tbd">[kinnitamata: teen mina / teeb klient minu juhiste järgi]</span></dd></div>
+            <div><dt>Saad</dt><dd>Kõik seitse väljundit ülalt</dd></div>
+            <div><dt>Kestus</dt><dd><span class="tbd">[kinnitamata]</span></dd></div>
+            <div><dt>Kordusmõõtmine</dt><dd><span class="tbd">[kinnitamata]</span> pärast paranduste tegemist</dd></div>
+            <div><dt>Hind</dt><dd><span class="tbd">[kinnitamata]</span></dd></div>
+            <div><dt>Hind ei sisalda</dt><dd>Uut veebilehte, reklaami, tasulisi kataloogikandeid, piiramatut veebiarendust <span class="tbd">[kinnitamata]</span></dd></div>
+          </dl>
+          <a class="btn btn-ghost" href="mailto:acceleratedigitaltwin@gmail.com?subject=AI-n%C3%A4htavuse%20piloot">Küsi pilooti</a>
         </article>
       </div>
-      <p class="fine">Hinnad avaldame, kui esimesed pilootprojektid on tehtud ja ajakulu on teada. Pilootkliendid saavad pakkumise e-postiga.</p>
+      <p class="fine">Pidevat kuutasulist mõõtmist praegu ei paku. Kui soovid pärast pilooti korduvat mõõtmist, lepime selle eraldi kokku.</p>
+    </div>
+  </section>
+
+  <section class="block" id="ei-tee-et" aria-labelledby="h-ei-tee-et">
+    <div class="wrap">
+      <p class="kicker">Ausalt</p>
+      <h2 id="h-ei-tee-et">Mida teenus ei tee</h2>
       <div class="limits">
-        <b class="label">Mida me ei luba</b>
         <ul>
-          <li>Me ei luba, et ChatGPT või mõni muu AI hakkab sind soovitama.</li>
-          <li>Schema.org märgendus ja llms.txt ei ole garantii, et AI-süsteemid neid kasutavad.</li>
-          <li>Me ei luba otsingupositsioone ega müügitulemusi.</li>
+          <li>Ei taga, et AI-vastustes sind mainitakse või soovitatakse.</li>
+          <li>Ei taga uusi kliente, müügitulemusi ega Google'i positsioone.</li>
+          <li>Ei ole tavapärane SEO- ega reklaamiteenus.</li>
+          <li>Ei muuda hindu, teenuseid ega ettevõtte fakte ilma omaniku kinnituseta.</li>
+          <li>Ei sisalda automaatse AI-agendi, broneerimis- ega müügisüsteemi ehitamist.</li>
+          <li>Ei sisalda piiramatut veebiarendust ega kõigi väliste kataloogide muutmist.</li>
         </ul>
       </div>
+    </div>
+  </section>
+
+  <section class="block" id="naidis-et" aria-labelledby="h-naidis-et">
+    <div class="wrap">
+      <p class="kicker">Näidisraport</p>
+      <h2 id="h-naidis-et">Nii näeb tulemus välja</h2>
+      <p class="notice">Illustratiivne näide. Ettevõte „Näidisküte OÜ“ ja kõik andmed on välja mõeldud.</p>
+      <div class="rtable-wrap">
+        <table class="rtable">
+          <caption class="label">Kordusmõõtmise võrdlus · 15 vastust</caption>
+          <thead><tr><th>Mõõdik</th><th>Algmõõtmine</th><th>Kordusmõõtmine</th></tr></thead>
+          <tbody>
+            <tr><td>Ettevõtet mainiti</td><td class="bad">2 / 15</td><td class="mid">5 / 15</td></tr>
+            <tr><td>Telefoninumber õige</td><td class="bad">1 / 2</td><td class="ok">5 / 5</td></tr>
+            <tr><td>Teeninduspiirkond õige</td><td class="bad">0 / 2</td><td class="mid">3 / 5</td></tr>
+            <tr><td>Soojuspumba hooldus seostati ettevõttega</td><td class="bad">ei</td><td class="ok">jah</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="sample-cta"><a class="btn btn-ghost" href="naidisraport.html">Vaata kogu näidisraportit</a></p>
     </div>
   </section>
 
@@ -215,7 +272,7 @@
     <div class="wrap">
       <p class="kicker">Metoodika</p>
       <h2 id="h-metoodika-et">Viis küsimust, mida saab korrata</h2>
-      <p class="section-lead">Igale ettevõttele esitame samad viis küsimusetüüpi. Nurksulgudes osa täidame sinu andmetega.</p>
+      <p class="section-lead">Iga ettevõtte puhul kasutan samu viit küsimusetüüpi. Nurksulgudes osa täidan sinu andmetega.</p>
       <ol class="qlist">
         <li><b>Bränditeadlikkus</b><q>Mida sa tead ettevõtte [nimi] kohta?</q></li>
         <li><b>Kategooria nähtavus</b><q>Millist [teenuse] pakkujat soovitaksid [linnas]?</q></li>
@@ -223,18 +280,35 @@
         <li><b>Ekspertiis</b><q>Mida peaks klient [teenuse] valimisel arvestama?</q></li>
         <li><b>Teenuse täpsus</b><q>Kas [nimi] pakub [teenust] piirkonnas [piirkond] ja kuidas temaga ühendust võtta?</q></li>
       </ol>
-      <h3 class="h3">Iga vastuse juures paneme kirja</h3>
+      <h3 class="h3">Iga vastuse juures panen kirja</h3>
       <ul class="fields">
-        <li>kuupäev</li><li>AI-platvorm</li><li>täpne küsimus</li><li>keel</li><li>vastus</li>
+        <li>kuupäev</li><li>AI-assistent</li><li>täpne küsimus</li><li>keel</li><li>vastus</li>
         <li>nimetatud ettevõtted</li><li>viidatud allikad</li><li>kas sind mainiti</li><li>info: õige / puudulik / vale</li>
       </ul>
       <h3 class="h3">Kuidas tulemust lugeda</h3>
       <dl class="kinds">
-        <div><dt class="label">Fakt</dt><dd>Mida assistent tol päeval sõna-sõnalt vastas. Salvestatud koos kuupäevaga.</dd></div>
+        <div><dt class="label">Fakt</dt><dd>Mida assistent tol päeval vastas, sõna-sõnalt ja kuupäevaga.</dd></div>
         <div><dt class="label">Vaatlus</dt><dd>Mida vastusest on näha: kas sind mainiti, kas kontakt oli õige, millist allikat kasutati.</dd></div>
-        <div><dt class="label">Tõlgendus</dt><dd>Meie hinnang, miks nii juhtus ja mida parandada. Märgitud eraldi.</dd></div>
+        <div><dt class="label">Tõlgendus</dt><dd>Minu hinnang, miks nii juhtus ja mida parandada. Märgitud eraldi.</dd></div>
       </dl>
-      <p class="fine">AI vastused muutuvad päevast päeva. Viis küsimust kolmele assistendile on proovivalim, mitte statistiliselt esinduslik tulemus. Teiste ettevõtete nimesid, mis vastustes esinevad, me ei avalda.</p>
+      <p class="fine">Viis küsimust kolmele assistendile on proovivalim, mitte statistiliselt esinduslik tulemus. Teiste ettevõtete nimesid, mis vastustes esinevad, ma ei avalda.</p>
+    </div>
+  </section>
+
+  <section class="block" id="kkk-et" aria-labelledby="h-kkk-et">
+    <div class="wrap">
+      <p class="kicker">Korduma kippuvad küsimused</p>
+      <h2 id="h-kkk-et">Küsimused</h2>
+      <div class="faq">
+        <details><summary>Kas see tähendab, et ChatGPT hakkab minu ettevõtet soovitama?</summary><p>Ei pruugi. AI-assistent otsustab ise, keda nimetada, ja tema vastused muutuvad. Seda ei saa keegi lubada. Saan teha nii, et sinu kohta käiv info oleks õige, kõikjal ühesugune ja masinale arusaadav. Siis on suurem võimalus, et kui sind mainitakse, tehakse seda õigesti.</p></details>
+        <details><summary>Milliseid AI-assistente kontrollite?</summary><p>Kolme levinumat üldkasutatavat assistenti <span class="tbd">[kinnitamata: nt ChatGPT, Gemini, Perplexity]</span>. Kasutan neid nii, nagu klient neid kasutab, ilma isikupärastamiseta. Raportis on kirjas, millist assistenti ja millal kasutasin.</p></details>
+        <details><summary>Kas teenus sobib väikesele ettevõttele?</summary><p>Jah, see on tehtud just väikestele ettevõtetele, kes pakuvad selgeid teenuseid kindlas piirkonnas. Piisab, kui sul on veebileht või vähemalt mõni avalik kirje, näiteks Google'i ettevõtteprofiil.</p></details>
+        <details><summary>Kas peate muutma minu veebilehte?</summary><p>Mitte alati. Sageli on suurem mõju kataloogides ja Google'i ettevõtteprofiilis olevate andmete parandamisel. Kui veebilehte on vaja muuta, kirjutan täpse muudatuse ette. Kes selle teeb, lepime kokku.</p></details>
+        <details><summary>Kas kontrollite ka Google'i, Facebooki ja ettevõtete kataloogide infot?</summary><p>Jah. Infoauditis vaatan läbi sinu veebilehe, Google'i ettevõtteprofiili, Facebooki lehe ja kataloogid, kus ettevõte on kirjas. Paranduste nimekirjas on kirjas, mida ja kus muuta. Ilma kokkuleppeta ma sinu eest midagi ei muuda.</p></details>
+        <details><summary>Kui kaua töö kestab?</summary><p>Tasuta testi tulemuse saad <span class="tbd">[kinnitamata]</span>. Piloot kestab <span class="tbd">[kinnitamata]</span>. Kordusmõõtmise teen <span class="tbd">[kinnitamata]</span> pärast paranduste tegemist, sest muudatused ei jõua kõikjale korraga.</p></details>
+        <details><summary>Mida ma pärast teenuse ostmist kätte saan?</summary><p>Algmõõtmise raporti, info auditi, paranduste nimekirja, korrastatud ettevõtte ja teenuste profiili, vajadusel masinloetavad failid sinu veebilehe jaoks, tehtud muudatuste kokkuvõtte ja kordusmõõtmise raporti. Failid jäävad sulle.</p></details>
+        <details><summary>Kas AI-nähtavust saab regulaarselt mõõta?</summary><p>Jah, samu küsimusi saab korrata ja tulemusi võrrelda. Püsiteenusena ma seda praegu ei paku. Kui soovid pärast pilooti korduvat mõõtmist, lepime selle eraldi kokku.</p></details>
+      </div>
     </div>
   </section>
 
@@ -245,7 +319,7 @@
         <img class="portrait" src="robert-avatar.jpg" alt="Robert Kond" width="72" height="72">
         <div>
           <h2 id="h-kes-et">Robert Kond</h2>
-          <p>Küsisin kolmelt AI-mudelilt AI Acti tähtaegade kohta ja kõik kolm andsid sama vale vastuse. Sellest sündis tööriist, kus mudel ei kirjuta ühtegi kuupäeva: ta valib kategooria ning kood lisab kuupäeva ja õigusliku allika. Sama põhimõte kehtib siin: AI vastust ei võta me faktina, vaid mõõdame ja kontrollime.</p>
+          <p>Küsisin kolmelt AI-mudelilt AI Acti tähtaegade kohta ja kõik kolm andsid sama vale vastuse. Sellest sündis tööriist, kus mudel ei kirjuta ühtegi kuupäeva: ta valib kategooria ning kood lisab kuupäeva ja õigusliku allika. Sama põhimõte kehtib siin: AI vastust ei võta ma faktina, vaid mõõdan ja kontrollin.</p>
           <ul class="ticks">
             <li><a href="https://eu-ai-act-checker.onrender.com">EU AI Act Readiness Check</a></li>
             <li><a href="https://rkcd.github.io/agentide-vastutus/">Agentide vastutuse kaart Eestis</a></li>
@@ -261,23 +335,20 @@
     <div class="wrap">
       <p class="kicker">Tasuta test</p>
       <h2 id="h-test-et">Telli tasuta AI-nähtavuse test</h2>
-      <p class="lead">Täida neli välja. Nupp avab sinu e-posti programmi valmis kirjaga, mille saadad ise. Saad tulemuse e-postiga.</p>
+      <p class="lead">Nupp avab sinu e-posti programmi valmis kirjaga, mille saadad ise.</p>
       <form class="order" action="mailto:acceleratedigitaltwin@gmail.com" method="post" enctype="text/plain"
             data-subject="Tasuta AI-nähtavuse test"
             data-intro="Tere, soovin tasuta AI-nähtavuse testi."
             data-sent="Kiri on e-posti programmis valmis. Saada see sealt ära.">
         <label>Ettevõtte nimi<input name="ettevote" data-label="Ettevõte" required autocomplete="organization"></label>
-        <label>Tegevusala
-          <select name="tegevusala" data-label="Tegevusala" required>
-            <option value="">Vali</option>
-            <option>Küte</option><option>Ventilatsioon</option><option>Elekter</option><option>Hooldus</option><option>Muu tehniline teenus</option>
-          </select>
-        </label>
-        <label>Asukoht või teeninduspiirkond<input name="asukoht" data-label="Asukoht" required placeholder="nt Tartu ja Tartumaa"></label>
-        <label>Veebiaadress<input name="veeb" data-label="Veeb" type="text" inputmode="url" required placeholder="nt firma.ee" autocomplete="url"></label>
+        <label>Veebilehe aadress<input name="veeb" data-label="Veeb" type="text" inputmode="url" required placeholder="nt firma.ee" autocomplete="url"></label>
+        <label>Kontaktisiku nimi<input name="kontakt" data-label="Kontaktisik" required autocomplete="name"></label>
+        <label>E-post või telefon<input name="side" data-label="E-post või telefon" required></label>
+        <label>Peamised teenused<input name="teenused" data-label="Peamised teenused" required placeholder="nt soojuspumpade paigaldus ja hooldus"></label>
+        <label>Teeninduspiirkond<input name="piirkond" data-label="Teeninduspiirkond" required placeholder="nt Tartu ja Tartumaa"></label>
         <button class="btn btn-gold" type="submit">Telli tasuta test</button>
         <p class="order-status" role="status" aria-live="polite"></p>
-        <p class="order-note">Siin lehel andmeid ei salvestata. Kasutame neid ainult sinu testi tegemiseks. Kui vorm ei tööta, kirjuta otse: <a href="mailto:acceleratedigitaltwin@gmail.com?subject=Tasuta%20AI-n%C3%A4htavuse%20test&amp;body=Ettev%C3%B5te%3A%20%0ATegevusala%3A%20%0AAsukoht%3A%20%0AVeeb%3A%20">acceleratedigitaltwin@gmail.com</a></p>
+        <p class="order-note">Siin lehel andmeid ei salvestata. Kasutan neid ainult testi tegemiseks ja sulle vastamiseks. <a href="tingimused.html#privaatsus">Privaatsusteave</a>. Kui vorm ei tööta, kirjuta otse: <a href="mailto:acceleratedigitaltwin@gmail.com?subject=Tasuta%20AI-n%C3%A4htavuse%20test&amp;body=Ettev%C3%B5te%3A%20%0AVeeb%3A%20%0AKontaktisik%3A%20%0AE-post%20v%C3%B5i%20telefon%3A%20%0APeamised%20teenused%3A%20%0ATeeninduspiirkond%3A%20">acceleratedigitaltwin@gmail.com</a></p>
       </form>
     </div>
   </section>
@@ -285,22 +356,22 @@
 
 <footer class="site-foot">
   <div class="wrap">
-    <p>Teenuse tingimused ja privaatsusteave vaadatakse üle enne esimest tasulist tellimust. Tasulise töö tingimused lepime kokku kirjalikult.</p>
-    <p><a href="blog/">Mõõtmised</a> · <a href="teenused.md">Teenused tekstina</a> · <a href="https://rkcd.github.io/robertkond.github.io/?lang=et">Robert Kond</a></p>
-    <p>Viimati uuendatud: 12. november 2026 · Robert Kond · Eesti</p>
+    <p><a href="tingimused.html">Tingimused ja privaatsus</a> · <a href="naidisraport.html">Näidisraport</a> · <a href="blog/">Mõõtmised</a> · <a href="teenused.md">Teenused tekstina</a> · <a href="https://rkcd.github.io/robertkond.github.io/?lang=et">Robert Kond</a></p>
+    <p>Viimati uuendatud: 15. november 2026 · Robert Kond · Eesti</p>
   </div>
 </footer>
 </div>
 
 <!-- ================= ENGLISH ================= -->
-<div class="page" data-lang="en" lang="en" hidden>
+<div class="page" data-lang="en" lang="en">
 <a class="skip-link" href="#main-en">Skip to content</a>
 <header class="site-head">
   <div class="wrap">
     <a class="site-name" href="./?lang=en"><span class="mark" aria-hidden="true"></span>AI Visibility</a>
     <span class="head-right">
+      <a class="head-link soft" href="#how-en">How it works</a>
       <a class="head-link soft" href="#services-en">Services</a>
-      <a class="head-link soft" href="#method-en">Method</a>
+      <a class="head-link soft" href="#faq-en">FAQ</a>
       <a class="head-link" href="#test-en">Free test</a>
       <button class="lang-btn" type="button" data-set="et" aria-label="Vaheta eesti keelde">ET</button>
     </span>
@@ -310,15 +381,15 @@
 <main id="main-en">
   <section class="hero svc-hero" aria-labelledby="h1-en">
     <div class="wrap">
-      <p class="kicker">Measure · fix · prepare</p>
-      <h1 id="h1-en" class="ask">Does AI know what your company offers?</h1>
-      <p class="lead">We measure how AI assistants find and understand your company. We put your information in order and prepare your company for dealing with AI agents.</p>
-      <p class="for-whom"><b>For:</b> heating, ventilation, electrical and maintenance companies in Estonia</p>
+      <p class="kicker">Visible to AI · Clear to agents · Easy to find</p>
+      <h1 id="h1-en" class="ask">Can AI find your company and understand what you offer?</h1>
+      <p class="lead">I check how AI assistants see your company and your services. I help fix information that is missing, wrong or hard to find, and build a company profile that people, search engines and AI tools can all understand.</p>
+      <p class="for-whom"><b>For technical service companies in Estonia:</b> heating and boilers · heat pumps · ventilation · electrical work · maintenance and repair</p>
       <div class="cta-row">
-        <a class="btn btn-gold" href="#test-en">Order a free test</a>
-        <a class="btn btn-ghost" href="#method-en">How we measure</a>
+        <a class="btn btn-gold" href="#test-en">Order a free AI visibility test</a>
+        <a class="btn btn-ghost" href="#how-en">See how it works</a>
       </div>
-      <div class="probe" role="img" aria-label="Measurement form: one question, three assistants, results are filled in during the test">
+      <div class="probe" role="img" aria-label="Measurement form: one customer question, three AI assistants, results are filled in during the test">
         <div class="probe-h"><span>Measurement · question 3/5</span><span>form</span></div>
         <p class="probe-q">“Who should I call if my heat pump isn’t heating, in Tartu?”</p>
         <ul class="probe-rows">
@@ -334,88 +405,147 @@
   <section class="block" id="problem-en" aria-labelledby="h-problem-en">
     <div class="wrap">
       <p class="kicker">The problem</p>
-      <h2 id="h-problem-en">Your information is online. AI may still not find it or understand it.</h2>
+      <h2 id="h-problem-en">The information exists somewhere. A machine can’t find it, or gets it wrong.</h2>
       <ul class="problem">
-        <li>A customer asks an AI assistant who services heat pumps in their area. The assistant answers, but it may never open your website.</li>
-        <li>If an old phone number or service area is still listed in some directory, the assistant may repeat it.</li>
-        <li>If your services are in an image, a PDF or only on Facebook, a machine has a hard time reading them.</li>
-        <li>Soon it won’t only be people asking. An AI agent may send a quote request on a customer’s behalf. Then it matters whether your information is unambiguous.</li>
+        <li>AI doesn’t know which area you work in.</li>
+        <li>Your website shows one phone number, a directory and Facebook show another.</li>
+        <li>Your service description doesn’t say which equipment you install or maintain.</li>
+        <li>Your price list or list of services is only in a PDF or buried deep in the site.</li>
+        <li>Your website is readable for people, but doesn’t clearly tell a machine who you are and what you do.</li>
       </ul>
+    </div>
+  </section>
+
+  <section class="block wide" id="levels-en" aria-labelledby="h-levels-en">
+    <div class="wrap">
+      <p class="kicker">What I check</p>
+      <h2 id="h-levels-en">Four levels</h2>
+      <ol class="levels">
+        <li><b>AI visibility</b><span>Does an AI assistant find your company and name it when a customer asks a relevant question?</span></li>
+        <li><b>Reliable information</b><span>Are your name, contacts, services and area correct and consistent across sources?</span></li>
+        <li><b>Agent readiness</b><span>Can a machine understand your services, terms, limits and the next step?</span></li>
+        <li class="future"><b>Agent transaction readiness</b><span>An AI agent asks you for a quote or a time slot on a customer’s behalf. This is a future direction, not a promise of the current service.</span><span class="tag">Direction</span></li>
+      </ol>
+      <p class="fine">The current service covers levels 1–3.</p>
     </div>
   </section>
 
   <section class="block" id="how-en" aria-labelledby="h-how-en">
     <div class="wrap">
       <p class="kicker">How it works</p>
-      <h2 id="h-how-en">Measure, fix, prepare, measure again</h2>
+      <h2 id="h-how-en">Measure, check, fix, measure again</h2>
       <ol class="steps">
-        <li><b>Measure</b><span>We ask several AI assistants five standard questions and record the answers.</span></li>
-        <li><b>Fix</b><span>We list what is missing, outdated or wrong, and where it lives.</span></li>
-        <li><b>Prepare</b><span>We build a company profile confirmed by you, readable by people and machines.</span></li>
-        <li><b>Measure again</b><span>The same questions a few weeks later. We compare what changed.</span></li>
+        <li><b>Measure</b><span>I ask several AI assistants realistic customer questions about your company and record the answers and sources.</span></li>
+        <li><b>Check</b><span>I compare the AI answers with your confirmed data and with public sources.</span></li>
+        <li><b>Fix</b><span>I help put your service descriptions, contact details, areas and technical presentation in order.</span></li>
+        <li><b>Measure again</b><span>I repeat the same questions and compare the results.</span></li>
       </ol>
+      <p class="fine">AI answers vary over time and between platforms. Measuring again shows what changed, but doesn’t guarantee the result you want.</p>
+    </div>
+  </section>
+
+  <section class="block" id="get-en" aria-labelledby="h-get-en">
+    <div class="wrap">
+      <p class="kicker">What you get</p>
+      <h2 id="h-get-en">Concrete deliverables</h2>
+      <ol class="outputs">
+        <li>Baseline measurement report</li>
+        <li>Audit of your public company information</li>
+        <li>List of gaps and fixes</li>
+        <li>Clean company and service profile</li>
+        <li>JSON-LD and other machine-readable files, where needed</li>
+        <li>Summary of the changes made</li>
+        <li>Follow-up measurement report</li>
+      </ol>
+      <div class="explain">
+        <b class="label">What is a machine-readable service profile?</b>
+        <p>A structured description of what you offer, where you work, who the service is for, what the terms are and how to contact you. The same information is written so that a person can read it and a machine can understand it.</p>
+        <p>JSON-LD and other technical files are part of this, not a solution on their own. They only help when the information itself is correct and consistent everywhere.</p>
+      </div>
     </div>
   </section>
 
   <section class="block wide" id="services-en" aria-labelledby="h-services-en">
     <div class="wrap">
       <p class="kicker">Services</p>
-      <h2 id="h-services-en">Three steps, starting with a free test</h2>
-      <div class="tiers">
+      <h2 id="h-services-en">Start with a free test</h2>
+      <div class="tiers two">
         <article class="tier">
           <span class="tag free">Free</span>
           <h3>AI visibility test</h3>
-          <p>A sample measurement that shows where to start.</p>
-          <ul class="ticks">
-            <li>five standard questions</li>
-            <li>up to three AI assistants available on the day of the test</li>
-            <li>what the assistants know about your company, and what they don’t</li>
-            <li>which sources they use</li>
-            <li>a short written summary by email</li>
-          </ul>
-          <p class="note">The result applies to a specific date and set of questions. It is not a universal visibility score.</p>
+          <dl class="spec">
+            <div><dt>Includes</dt><dd>Five customer questions to three AI assistants. I check whether you are found, whether the information is correct and which sources are used.</dd></div>
+            <div><dt>I need</dt><dd>Company name, website, main services and service area.</dd></div>
+            <div><dt>You get</dt><dd>A short written summary by email and the three most important fixes.</dd></div>
+            <div><dt>Reply</dt><dd><span class="tbd">[to confirm: e.g. within 5 working days]</span></dd></div>
+          </dl>
+          <p class="note">The free test is a sample measurement. It is not a full audit and not a fix.</p>
           <a class="btn btn-gold" href="#test-en">Order a free test</a>
         </article>
         <article class="tier main">
-          <span class="tag core">Core service</span>
-          <h3>AI-ready company profile</h3>
-          <p>Your company information in one place, correct and machine-readable.</p>
+          <span class="tag core">Paid</span>
+          <h3>AI visibility pilot</h3>
           <ul class="ticks">
-            <li>official name, services and their descriptions</li>
-            <li>service areas and target customers</li>
-            <li>contacts, opening hours, languages</li>
-            <li>limits: what you don’t do</li>
-            <li>verified certificates, price information if you want it</li>
-            <li>the next step for a quote or booking</li>
-            <li>frequently asked questions</li>
-            <li>sources and the date last checked</li>
+            <li>baseline measurement</li>
+            <li>company information audit</li>
+            <li>service profile</li>
+            <li>agreed technical and content fixes</li>
+            <li>follow-up measurement</li>
+            <li>results summary</li>
           </ul>
-          <p>You get the profile as a page, as schema.org markup (JSON-LD) for your website, and as Markdown and JSON files.</p>
-          <p class="note">Every fact that gets published is confirmed with you. Price on request.</p>
-          <a class="btn btn-ghost" href="mailto:acceleratedigitaltwin@gmail.com?subject=AI-ready%20company%20profile">Ask for a quote</a>
-        </article>
-        <article class="tier">
-          <span class="tag">Coming</span>
-          <h3>Ongoing measurement</h3>
-          <p>Whether the fixes landed and what changed in the meantime.</p>
-          <ul class="ticks">
-            <li>the same questions, repeated</li>
-            <li>changes compared by date</li>
-            <li>a list of missing or misunderstood data</li>
-            <li>recommendations for the next fixes</li>
-          </ul>
-          <p class="note">Opens after the first profile projects.</p>
+          <dl class="spec">
+            <div><dt>Measurement</dt><dd>5 questions × <span class="tbd">[to confirm: 3]</span> AI assistants, at the start and at the end</dd></div>
+            <div><dt>I check</dt><dd>Name, contacts, services, service area, opening hours, next step (enquiry or booking) and the sources where these appear</dd></div>
+            <div><dt>Scope</dt><dd>Up to <span class="tbd">[to confirm]</span> services and <span class="tbd">[to confirm]</span> areas</dd></div>
+            <div><dt>Website changes</dt><dd><span class="tbd">[to confirm: done by me / by the client following my instructions]</span></dd></div>
+            <div><dt>You get</dt><dd>All seven deliverables above</dd></div>
+            <div><dt>Duration</dt><dd><span class="tbd">[to confirm]</span></dd></div>
+            <div><dt>Follow-up</dt><dd><span class="tbd">[to confirm]</span> after the fixes are made</dd></div>
+            <div><dt>Price</dt><dd><span class="tbd">[to confirm]</span></dd></div>
+            <div><dt>Not included</dt><dd>A new website, advertising, paid directory listings, unlimited web development <span class="tbd">[to confirm]</span></dd></div>
+          </dl>
+          <a class="btn btn-ghost" href="mailto:acceleratedigitaltwin@gmail.com?subject=AI%20visibility%20pilot">Ask about the pilot</a>
         </article>
       </div>
-      <p class="fine">We will publish prices once the first pilot projects are done and the time it takes is known. Pilot clients get a quote by email.</p>
+      <p class="fine">I don’t offer an ongoing monthly service at the moment. If you want repeated measurement after the pilot, we agree on it separately.</p>
+    </div>
+  </section>
+
+  <section class="block" id="not-en" aria-labelledby="h-not-en">
+    <div class="wrap">
+      <p class="kicker">Honestly</p>
+      <h2 id="h-not-en">What the service doesn’t do</h2>
       <div class="limits">
-        <b class="label">What we don’t promise</b>
         <ul>
-          <li>We don’t promise that ChatGPT or any other AI will start recommending you.</li>
-          <li>Schema.org markup and llms.txt are no guarantee that AI systems will use them.</li>
-          <li>We don’t promise search rankings or sales results.</li>
+          <li>It doesn’t guarantee that AI answers will mention or recommend you.</li>
+          <li>It doesn’t guarantee new customers, sales or Google rankings.</li>
+          <li>It isn’t a standard SEO or advertising service.</li>
+          <li>It doesn’t change prices, services or company facts without the owner’s confirmation.</li>
+          <li>It doesn’t include building an automated AI agent, booking or sales system.</li>
+          <li>It doesn’t include unlimited web development or changing every external directory.</li>
         </ul>
       </div>
+    </div>
+  </section>
+
+  <section class="block" id="sample-en" aria-labelledby="h-sample-en">
+    <div class="wrap">
+      <p class="kicker">Sample report</p>
+      <h2 id="h-sample-en">What the result looks like</h2>
+      <p class="notice">Illustrative example. The company “Näidisküte OÜ” and all data are made up.</p>
+      <div class="rtable-wrap">
+        <table class="rtable">
+          <caption class="label">Follow-up comparison · 15 answers</caption>
+          <thead><tr><th>Measure</th><th>Baseline</th><th>Follow-up</th></tr></thead>
+          <tbody>
+            <tr><td>Company mentioned</td><td class="bad">2 / 15</td><td class="mid">5 / 15</td></tr>
+            <tr><td>Phone number correct</td><td class="bad">1 / 2</td><td class="ok">5 / 5</td></tr>
+            <tr><td>Service area correct</td><td class="bad">0 / 2</td><td class="mid">3 / 5</td></tr>
+            <tr><td>Heat pump maintenance linked to the company</td><td class="bad">no</td><td class="ok">yes</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="sample-cta"><a class="btn btn-ghost" href="naidisraport.html?lang=en">See the full sample report</a></p>
     </div>
   </section>
 
@@ -423,7 +553,7 @@
     <div class="wrap">
       <p class="kicker">Method</p>
       <h2 id="h-method-en">Five questions you can repeat</h2>
-      <p class="section-lead">Every company gets the same five types of question. We fill in the parts in brackets with your details.</p>
+      <p class="section-lead">For every company I use the same five types of question. I fill in the parts in brackets with your details.</p>
       <ol class="qlist">
         <li><b>Brand awareness</b><q>What do you know about the company [name]?</q></li>
         <li><b>Category visibility</b><q>Which [service] provider would you recommend in [city]?</q></li>
@@ -431,18 +561,35 @@
         <li><b>Expertise</b><q>What should a customer consider when choosing [service]?</q></li>
         <li><b>Service accuracy</b><q>Does [name] offer [service] in [area], and how do I contact them?</q></li>
       </ol>
-      <h3 class="h3">For each answer we record</h3>
+      <h3 class="h3">For each answer I record</h3>
       <ul class="fields">
-        <li>date</li><li>AI platform</li><li>exact question</li><li>language</li><li>answer</li>
+        <li>date</li><li>AI assistant</li><li>exact question</li><li>language</li><li>answer</li>
         <li>companies named</li><li>sources cited</li><li>were you mentioned</li><li>info: correct / incomplete / wrong</li>
       </ul>
       <h3 class="h3">How to read the result</h3>
       <dl class="kinds">
-        <div><dt class="label">Fact</dt><dd>What the assistant answered that day, word for word. Stored with the date.</dd></div>
+        <div><dt class="label">Fact</dt><dd>What the assistant answered that day, word for word and dated.</dd></div>
         <div><dt class="label">Observation</dt><dd>What the answer shows: were you mentioned, was the contact right, which source was used.</dd></div>
-        <div><dt class="label">Interpretation</dt><dd>Our view of why it happened and what to fix. Marked separately.</dd></div>
+        <div><dt class="label">Interpretation</dt><dd>My view of why it happened and what to fix. Marked separately.</dd></div>
       </dl>
-      <p class="fine">AI answers change from day to day. Five questions to three assistants is a sample, not a statistically representative result. We don’t publish the names of other companies that appear in the answers.</p>
+      <p class="fine">Five questions to three assistants is a sample, not a statistically representative result. I don’t publish the names of other companies that appear in the answers.</p>
+    </div>
+  </section>
+
+  <section class="block" id="faq-en" aria-labelledby="h-faq-en">
+    <div class="wrap">
+      <p class="kicker">Frequently asked questions</p>
+      <h2 id="h-faq-en">Questions</h2>
+      <div class="faq">
+        <details><summary>Does this mean ChatGPT will start recommending my company?</summary><p>Not necessarily. An AI assistant decides on its own whom to name, and its answers change. Nobody can promise that. What I can do is make sure the information about you is correct, consistent everywhere and understandable to a machine. Then, if you are mentioned, it is more likely to be done correctly.</p></details>
+        <details><summary>Which AI assistants do you check?</summary><p>Three widely used general assistants <span class="tbd">[to confirm: e.g. ChatGPT, Gemini, Perplexity]</span>. I use them the way a customer would, without personalisation. The report states which assistant I used and when.</p></details>
+        <details><summary>Is this suitable for a small company?</summary><p>Yes, it is made for small companies that offer clear services in a specific area. A website or at least one public listing, such as a Google Business Profile, is enough.</p></details>
+        <details><summary>Do you have to change my website?</summary><p>Not always. Fixing the data in directories and in your Google Business Profile often matters more. If the website needs changes, I write down the exact change. We agree on who makes it.</p></details>
+        <details><summary>Do you also check Google, Facebook and business directories?</summary><p>Yes. The information audit covers your website, Google Business Profile, Facebook page and the directories where your company is listed. The list of fixes says what to change and where. I don’t change anything on your behalf without agreement.</p></details>
+        <details><summary>How long does it take?</summary><p>You get the free test result <span class="tbd">[to confirm]</span>. The pilot takes <span class="tbd">[to confirm]</span>. I run the follow-up measurement <span class="tbd">[to confirm]</span> after the fixes are made, because changes don’t reach every source at once.</p></details>
+        <details><summary>What do I get after buying the service?</summary><p>The baseline report, the information audit, the list of fixes, a clean company and service profile, machine-readable files for your website where needed, a summary of the changes and the follow-up report. The files are yours.</p></details>
+        <details><summary>Can AI visibility be measured regularly?</summary><p>Yes, the same questions can be repeated and the results compared. I don’t offer this as an ongoing service at the moment. If you want repeated measurement after the pilot, we agree on it separately.</p></details>
+      </div>
     </div>
   </section>
 
@@ -453,7 +600,7 @@
         <img class="portrait" src="robert-avatar.jpg" alt="Robert Kond" width="72" height="72">
         <div>
           <h2 id="h-who-en">Robert Kond</h2>
-          <p>I asked three AI models about the AI Act deadlines, and all three gave the same wrong answer. That led to a tool where the model never writes a date: it picks a category, and code adds the date and the legal source. The same principle applies here: we don’t take an AI answer as fact, we measure it and check it.</p>
+          <p>I asked three AI models about the AI Act deadlines, and all three gave the same wrong answer. That led to a tool where the model never writes a date: it picks a category, and code adds the date and the legal source. The same principle applies here: I don’t take an AI answer as fact, I measure it and check it.</p>
           <ul class="ticks">
             <li><a href="https://eu-ai-act-checker.onrender.com">EU AI Act Readiness Check</a></li>
             <li><a href="https://rkcd.github.io/agentide-vastutus/">Agent liability map for Estonia</a> (in Estonian)</li>
@@ -469,23 +616,20 @@
     <div class="wrap">
       <p class="kicker">Free test</p>
       <h2 id="h-test-en">Order a free AI visibility test</h2>
-      <p class="lead">Fill in four fields. The button opens your email program with a ready message that you send yourself. You get the result by email.</p>
+      <p class="lead">The button opens your email program with a ready message that you send yourself.</p>
       <form class="order" action="mailto:acceleratedigitaltwin@gmail.com" method="post" enctype="text/plain"
             data-subject="Free AI visibility test"
             data-intro="Hello, I would like a free AI visibility test."
             data-sent="The message is ready in your email program. Send it from there.">
         <label>Company name<input name="company" data-label="Company" required autocomplete="organization"></label>
-        <label>Field
-          <select name="field" data-label="Field" required>
-            <option value="">Choose</option>
-            <option>Heating</option><option>Ventilation</option><option>Electrical</option><option>Maintenance</option><option>Other technical service</option>
-          </select>
-        </label>
-        <label>Location or service area<input name="location" data-label="Location" required placeholder="e.g. Tartu and Tartu County"></label>
         <label>Website<input name="website" data-label="Website" type="text" inputmode="url" required placeholder="e.g. company.ee" autocomplete="url"></label>
+        <label>Contact person<input name="contact" data-label="Contact person" required autocomplete="name"></label>
+        <label>Email or phone<input name="reach" data-label="Email or phone" required></label>
+        <label>Main services<input name="services" data-label="Main services" required placeholder="e.g. heat pump installation and maintenance"></label>
+        <label>Service area<input name="area" data-label="Service area" required placeholder="e.g. Tartu and Tartu County"></label>
         <button class="btn btn-gold" type="submit">Order a free test</button>
         <p class="order-status" role="status" aria-live="polite"></p>
-        <p class="order-note">This page stores nothing. We use the details only to run your test. If the form doesn’t work, write directly: <a href="mailto:acceleratedigitaltwin@gmail.com?subject=Free%20AI%20visibility%20test&amp;body=Company%3A%20%0AField%3A%20%0ALocation%3A%20%0AWebsite%3A%20">acceleratedigitaltwin@gmail.com</a></p>
+        <p class="order-note">This page stores nothing. I use the details only to run your test and reply to you. <a href="tingimused.html?lang=en#privacy-en">Privacy information</a>. If the form doesn’t work, write directly: <a href="mailto:acceleratedigitaltwin@gmail.com?subject=Free%20AI%20visibility%20test&amp;body=Company%3A%20%0AWebsite%3A%20%0AContact%20person%3A%20%0AEmail%20or%20phone%3A%20%0AMain%20services%3A%20%0AService%20area%3A%20">acceleratedigitaltwin@gmail.com</a></p>
       </form>
     </div>
   </section>
@@ -493,9 +637,8 @@
 
 <footer class="site-foot">
   <div class="wrap">
-    <p>Terms of service and privacy information will be reviewed before the first paid order. Terms for paid work are agreed in writing.</p>
-    <p><a href="blog/?lang=en">Measurements</a> · <a href="teenused.md">Services as text</a> · <a href="https://rkcd.github.io/robertkond.github.io/">Robert Kond</a></p>
-    <p>Last updated: 12 November 2026 · Robert Kond · Estonia</p>
+    <p><a href="tingimused.html?lang=en">Terms and privacy</a> · <a href="naidisraport.html?lang=en">Sample report</a> · <a href="blog/?lang=en">Measurements</a> · <a href="teenused.md">Services as text</a> · <a href="https://rkcd.github.io/robertkond.github.io/">Robert Kond</a></p>
+    <p>Last updated: 15 November 2026 · Robert Kond · Estonia</p>
   </div>
 </footer>
 </div>

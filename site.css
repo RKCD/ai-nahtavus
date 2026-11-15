@@ -320,3 +320,4 @@ html.lang-et .page[data-lang="en"], html.lang-en .page[data-lang="et"] { display
   .levels, .outputs { grid-template-columns: 1fr; }
   .spec div { grid-template-columns: 1fr; gap: .15rem; }
 }
+.rtable caption { text-align: left; padding: .7rem .8rem 0; }
