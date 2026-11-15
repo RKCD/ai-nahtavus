@@ -322,3 +322,9 @@ html.lang-et .page[data-lang="en"], html.lang-en .page[data-lang="et"] { display
 }
 .rtable caption { text-align: left; padding: .7rem .8rem 0; }
 .tier, .levels li, .spec dd { min-width: 0; }
+
+/* ---- Positioning: differentiation and short method ---- */
+.diff-gain { margin-top: 1.4rem; max-width: 62ch; }
+.method-short { display: grid; gap: .7rem; max-width: 62ch; }
+.method-short p:first-child { color: var(--ivory); font-size: 1.05rem; }
+.method-short p + p { color: var(--muted); }
