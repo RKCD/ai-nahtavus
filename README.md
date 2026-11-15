@@ -13,7 +13,6 @@ Puhas staatiline leht GitHub Pagesis. Build-sammu, raamistikku ega sõltuvusi po
 | `blog/index.html` | Mõõtmiste register. `blog/post-template.html` on artikli mall (noindex, linkimata). |
 | `llms.txt` | Lühike masinloetav ülevaade teenusest. |
 | `teenused.md` | Teenuste kirjeldus Markdownis, inimesele ja masinale. |
-| `docs/` | `ARHITEKTUUR.md` (moodulid 1–5 ja millal neid ehitada) ning profiili ja mõõtmise andmeskeemide kavandid. |
 | `site.css`, `site.js` | Kujundus ja skript (keelelüliti, tellimisvorm). Ühine päritolu Roberti isikliku lehega. Kui muudad üht, kaalu sama muudatust teises. |
 
 **Keeled.** Mõlemad keeled on samas failis kahe plokina (`<div class="page" data-lang="…">`). Vaikekeel on `<html data-default-lang="et">` atribuudis. Teise keele saab avada `?lang=en` või `-en` lõpuga ankruga (`#test-en`).
@@ -47,3 +46,7 @@ Ava http://localhost:8000.
 Repo on avalik. Mõõtmisandmed, kliendiprofiilid ja artiklimustandid **ei tohi siia sattuda**, ka mitte linkimata kujul. Hoia neid eraldi privaatses repos (soovitus: `RKCD/ai-nahtavus-data`). `.gitignore` on ainult kaitsevõrk.
 
 Sisureeglid AI-toimetajale on failis [CLAUDE.md](CLAUDE.md).
+
+## Sisemine metoodika
+
+Mõõtmise küsimustik, hindamisloogika, andmeskeemid ja arhitektuuriplaan ei ole selles avalikus repos. Need on Roberti privaatses hoidlas.
