@@ -89,6 +89,7 @@
     <a class="site-name" href="./"><span class="mark" aria-hidden="true"></span>AI-nähtavus</a>
     <span class="head-right">
       <a class="head-link soft" href="#kuidas-et">Kuidas töötab</a>
+      <a class="head-link soft" href="#agendikiht-et">Agendikiht</a>
       <a class="head-link soft" href="#teenused-et">Teenused</a>
       <a class="head-link soft" href="#kkk-et">KKK</a>
       <a class="head-link" href="#test-et">Tasuta test</a>
@@ -143,9 +144,9 @@
         <li><b>AI-nähtavus</b><span>Kas AI-assistent leiab sinu ettevõtte ja nimetab seda, kui klient küsib sobivat küsimust?</span></li>
         <li><b>Info usaldusväärsus</b><span>Kas nimi, kontaktid, teenused ja piirkond on eri allikates õiged ja ühesugused?</span></li>
         <li><b>Agendivalmidus</b><span>Kas masin saab aru sinu teenustest, tingimustest, piirangutest ja sellest, kuidas edasi minna?</span></li>
-        <li class="future"><b>Agendiga tehinguvalmidus</b><span>Täna mõõdame nähtavust ja korrastame ettevõtte infot. Homme võib see olla aluseks AI-agentidega suhtlemisele. Praegune teenus ei tee automaatseid päringuid, broneeringuid ega tehinguid.</span><span class="tag">Suund</span></li>
+        <li class="proto"><b>Agendiga tehinguvalmidus</b><span>AI-agent leiab sinu ettevõtte, loeb kinnitatud andmeid ja koostab kliendi nimel hinnapäringu. Aja ja hinna kinnitab inimene.</span><a class="tag core" href="#agendikiht-et">Prototüüp</a></li>
       </ol>
-      <p class="fine">Praegune teenus katab tasandid 1–3.</p>
+      <p class="fine">Teenus katab tasandid 1–3. Tasand 4 on töötav prototüüp demoandmetega.</p>
     </div>
   </section>
 
@@ -173,6 +174,37 @@
         <li class="future"><b>Kogunev valdkondlik teadmine</b><span>Pikemas plaanis tekib päris tööde ja klientide nõusolekul kogutud andmete põhjal korduvkasutatav metoodika ja valdkondlik võrdlusbaas. Täna seda andmestikku veel ei ole.</span><span class="tag">Tekkiv</span></li>
         <li><b>Inimlik ja praktiline</b><span>Teen tehnilise probleemi ettevõtjale arusaadavaks. Eesmärk ei ole müüa tehnilisi faile, vaid aidata sul oma teenuseid internetis selgemalt esitada.</span></li>
       </ol>
+    </div>
+  </section>
+
+  <section class="block wide" id="agendikiht-et" aria-labelledby="h-agendikiht-et">
+    <div class="wrap">
+      <p class="kicker">Tasand 4 · Agendikiht · prototüüp</p>
+      <h2 id="h-agendikiht-et">Agent küsib. Sinu ettevõte vastab. Inimene kinnitab.</h2>
+      <p class="section-lead">Klient ei pruugi varsti ise otsida. Ta palub AI-agendil leida soojuspumba hooldaja Elvas ja küsida hinnapakkumist. Agent eelistab neid, kelle andmeid ta saab lugeda ja kellele päringu koostada. Ettevõttest, keda saab broneerida ainult tööajal helistades, võib ta mööda minna.</p>
+      <div class="agent-grid">
+        <div class="probe term" role="img" aria-label="Demo: agent leiab väljamõeldud ettevõtte ja koostab hinnapäringu mustandi">
+          <div class="probe-h"><span>Agendikiht · demo</span><span>väljamõeldud ettevõte</span></div>
+          <ol class="term-lines">
+            <li><span class="who">klient</span>Elvas õhk-vesi soojuspump ei küta. Leia keegi ja küsi hinda.</li>
+            <li><span class="who">agent</span><span><code>find_providers</code> soojuspump · Elva</span></li>
+            <li><span class="who ok">profiil</span>Näidisküte OÜ · soojuspumba hooldus · 120–220 € · vaba 19.11 hommikul · omanik kinnitas 15.11</li>
+            <li><span class="who">agent</span><span><code>draft_quote_request</code></span></li>
+            <li><span class="who gold">mustand</span>Ootab kliendi ülevaatust. Aja ja hinna kinnitab ettevõte.</li>
+          </ol>
+        </div>
+        <ul class="agent-points">
+          <li><b>Omaniku kinnitatud profiil.</b> Teenused, seadmed, piirkond, hinnavahemik, vabad ajaaknad ja piirangud. Ainult see, mille omanik on kinnitanud.</li>
+          <li><b>Agentidele loetav.</b> Avatud JSON-formaat ja MCP-liides, mida AI-agendid kasutavad tööriistadega ühendumiseks.</li>
+          <li><b>Inimene kinnitab alati.</b> Agent koostab päringu mustandi. Saata, broneerida ega hinda kinnitada ta ei saa.</li>
+        </ul>
+      </div>
+      <p class="fine">Prototüüp töötab demoandmetega. Otsin esimesi kütte-, ventilatsiooni- ja hooldusettevõtteid, kelle profiil läheb agendikihti.</p>
+      <div class="cta-row left">
+        <a class="btn btn-gold" href="mailto:acceleratedigitaltwin@gmail.com?subject=Agendikiht%3A%20soovin%20liituda">Liitu esimeste seas</a>
+        <a class="btn btn-ghost" href="agent.json">agent.json</a>
+        <a class="btn btn-ghost" href="https://github.com/RKCD/ai-nahtavus/tree/main/agent">Lähtekood</a>
+      </div>
     </div>
   </section>
 
@@ -267,7 +299,7 @@
           <li>Ei taga uusi kliente, müügitulemusi ega Google'i positsioone.</li>
           <li>Ei ole tavapärane SEO- ega reklaamiteenus.</li>
           <li>Ei muuda hindu, teenuseid ega ettevõtte fakte ilma omaniku kinnituseta.</li>
-          <li>Ei sisalda automaatse AI-agendi, broneerimis- ega müügisüsteemi ehitamist.</li>
+          <li>Piloot ei ehita sinu ettevõttele automaatset broneerimis- ega müügisüsteemi. Agent ei kinnita kunagi aega ega hinda.</li>
           <li>Ei sisalda piiramatut veebiarendust ega kõigi väliste kataloogide muutmist.</li>
         </ul>
       </div>
@@ -392,6 +424,7 @@
     <a class="site-name" href="./?lang=en"><span class="mark" aria-hidden="true"></span>AI Visibility</a>
     <span class="head-right">
       <a class="head-link soft" href="#how-en">How it works</a>
+      <a class="head-link soft" href="#agent-layer-en">Agent layer</a>
       <a class="head-link soft" href="#services-en">Services</a>
       <a class="head-link soft" href="#faq-en">FAQ</a>
       <a class="head-link" href="#test-en">Free test</a>
@@ -446,9 +479,9 @@
         <li><b>AI visibility</b><span>Does an AI assistant find your company and name it when a customer asks a relevant question?</span></li>
         <li><b>Reliable information</b><span>Are your name, contacts, services and area correct and consistent across sources?</span></li>
         <li><b>Agent readiness</b><span>Can a machine understand your services, terms, limits and the next step?</span></li>
-        <li class="future"><b>Agent transaction readiness</b><span>Today we measure visibility and put company information in order. Tomorrow this may be the basis for dealing with AI agents. The current service makes no automated enquiries, bookings or transactions.</span><span class="tag">Direction</span></li>
+        <li class="proto"><b>Agent transaction readiness</b><span>An AI agent finds your company, reads verified data and drafts a quote request on the customer’s behalf. A person confirms time and price.</span><a class="tag core" href="#agent-layer-en">Prototype</a></li>
       </ol>
-      <p class="fine">The current service covers levels 1–3.</p>
+      <p class="fine">The service covers levels 1–3. Level 4 is a working prototype with demo data.</p>
     </div>
   </section>
 
@@ -476,6 +509,37 @@
         <li class="future"><b>Growing sector knowledge</b><span>Over time, real projects and data collected with clients’ consent will build a reusable method and a sector benchmark. That dataset doesn’t exist yet.</span><span class="tag">Emerging</span></li>
         <li><b>Human and practical</b><span>I make technical problems understandable for the business owner. The goal isn’t to sell technical files, but to help you present your services more clearly online.</span></li>
       </ol>
+    </div>
+  </section>
+
+  <section class="block wide" id="agent-layer-en" aria-labelledby="h-agent-layer-en">
+    <div class="wrap">
+      <p class="kicker">Level 4 · Agent layer · prototype</p>
+      <h2 id="h-agent-layer-en">The agent asks. Your company answers. A person confirms.</h2>
+      <p class="section-lead">Soon customers may not search themselves. They will ask an AI agent to find a heat pump technician in Elva and request a quote. Agents favour companies whose data they can read and to whom they can draft a request. A company you can only book by phone during office hours may be passed over.</p>
+      <div class="agent-grid">
+        <div class="probe term" role="img" aria-label="Demo: an agent finds a fictional company and drafts a quote request">
+          <div class="probe-h"><span>Agent layer · demo</span><span>fictional company</span></div>
+          <ol class="term-lines">
+            <li><span class="who">customer</span>My air-to-water heat pump in Elva isn’t heating. Find someone and ask for a price.</li>
+            <li><span class="who">agent</span><span><code>find_providers</code> heat pump · Elva</span></li>
+            <li><span class="who ok">profile</span>Näidisküte OÜ · heat pump maintenance · €120–220 · open 19 Nov morning · owner verified 15 Nov</li>
+            <li><span class="who">agent</span><span><code>draft_quote_request</code></span></li>
+            <li><span class="who gold">draft</span>Awaiting the customer’s review. The company confirms time and price.</li>
+          </ol>
+        </div>
+        <ul class="agent-points">
+          <li><b>Owner-verified profile.</b> Services, equipment, area, price range, open time windows and limits. Only what the owner has confirmed.</li>
+          <li><b>Readable by agents.</b> An open JSON format and an MCP interface, which AI agents use to connect to tools.</li>
+          <li><b>A person always confirms.</b> The agent drafts the request. It cannot send it, book or confirm a price.</li>
+        </ul>
+      </div>
+      <p class="fine">The prototype runs on demo data. I’m looking for the first heating, ventilation and maintenance companies to join the agent layer.</p>
+      <div class="cta-row left">
+        <a class="btn btn-gold" href="mailto:acceleratedigitaltwin@gmail.com?subject=Agent%20layer%3A%20I%27d%20like%20to%20join">Join the first companies</a>
+        <a class="btn btn-ghost" href="agent.json">agent.json</a>
+        <a class="btn btn-ghost" href="https://github.com/RKCD/ai-nahtavus/tree/main/agent">Source code</a>
+      </div>
     </div>
   </section>
 
@@ -570,7 +634,7 @@
           <li>It doesn’t guarantee new customers, sales or Google rankings.</li>
           <li>It isn’t a standard SEO or advertising service.</li>
           <li>It doesn’t change prices, services or company facts without the owner’s confirmation.</li>
-          <li>It doesn’t include building an automated AI agent, booking or sales system.</li>
+          <li>The pilot doesn’t build an automated booking or sales system for your company. An agent never confirms a time or price.</li>
           <li>It doesn’t include unlimited web development or changing every external directory.</li>
         </ul>
       </div>

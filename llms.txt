@@ -16,6 +16,11 @@ Viimati uuendatud / last updated: 2026-11-15
 - [Teenuste kirjeldus (Markdown)](https://rkcd.github.io/ai-nahtavus/teenused.md): neli tasandit, tasuta test, AI-nähtavuse piloot, mida teenus ei tee
 - [Tingimused ja privaatsus](https://rkcd.github.io/ai-nahtavus/tingimused.html)
 
+## Agendikiht / Agent layer (prototype)
+
+- [agent.json](https://rkcd.github.io/ai-nahtavus/agent.json): manifest of owner-verified profiles readable by AI agents, with rules (agents draft quote requests; a person confirms time and price)
+- [MCP server source](https://github.com/RKCD/ai-nahtavus/tree/main/agent): tools find_providers, get_profile, draft_quote_request. Demo data only at this stage.
+
 ## Teenuse osutaja / Provider
 
 - [Robert Kond](https://rkcd.github.io/robertkond.github.io/)

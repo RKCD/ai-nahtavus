@@ -19,9 +19,9 @@ Aitan Eesti tehniliste teenuste ettevõtetel kontrollida ja parandada seda, kuid
 1. **AI-nähtavus.** Kas AI-assistent leiab ettevõtte ja nimetab seda sobiva kliendiküsimuse korral?
 2. **Info usaldusväärsus.** Kas nimi, kontaktid, teenused, piirkond ja muu info on eri allikates õiged ja ajakohased?
 3. **Agendivalmidus.** Kas masin saab aru teenustest, tingimustest, piirangutest ja järgmisest sammust?
-4. **Agendiga tehinguvalmidus.** Tulevikusuund. Täna mõõdame nähtavust ja korrastame ettevõtte infot. Homme võib see olla aluseks AI-agentidega suhtlemisele. Praegune teenus ei tee automaatseid päringuid, broneeringuid ega tehinguid.
+4. **Agendiga tehinguvalmidus.** Prototüüp (agendikiht): AI-agent leiab ettevõtte, loeb omaniku kinnitatud profiili ja koostab kliendi nimel hinnapäringu mustandi. Aja ja hinna kinnitab alati inimene. Praegu demoandmetega, manifest: https://rkcd.github.io/ai-nahtavus/agent.json
 
-Praegune teenus katab tasandid 1–3.
+Teenus katab tasandid 1–3. Tasand 4 on töötav prototüüp.
 
 ## Töövoog
 
